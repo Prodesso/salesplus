@@ -43,10 +43,15 @@
 .app-kanban .kanban-wrapper .kanban-container .kanban-board .kanban-board-header .dropdown .dropdown-toggle:after {
   display: none;
 }
-.app-kanban .kanban-wrapper .kanban-container .kanban-board .kanban-drag {
+.app-kanban .kanban-wrapper .kanban-container .kanban-board {
   min-height: 1rem;
   min-width: 16.25rem;
   padding: 0;
+}
+.kanban-drag {
+  min-height:90vh;
+  border: dashed #696cff;
+  border-radius: 0.5rem;
 }
 .app-kanban .kanban-wrapper .kanban-container .kanban-board .kanban-title-button {
   position: absolute;

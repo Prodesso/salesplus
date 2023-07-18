@@ -1,0 +1,15 @@
+{
+  "background_color": "purple",
+  "description": "CRM para seguimiento a ventas",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "/img/logo/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "SALESPLUSCRM",
+  "short_name": "SPC",
+  "start_url": "/"
+}

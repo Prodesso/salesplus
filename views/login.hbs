@@ -1,0 +1,66 @@
+<div class="authentication-inner">
+    <!-- Register -->
+    <div class="card">
+        <div class="card-body">
+            <!-- Logo -->
+            <div class="app-brand justify-content-center">
+                <a href="/" class="app-brand-link gap-2">
+                    <span class="app-brand-logo demo">
+                        <img src="/img/logo/logo.png" width="200" alt="">
+                    </span>
+                </a>
+            </div>
+            <!-- /Logo -->
+            <form id="formAuthentication" class="mb-3">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Escribe tu email" required/>
+                </div>
+                <div class="mb-3 form-password-toggle">
+                    <div class="d-flex justify-content-between">
+                        <label class="form-label" for="password">Contraseña</label>
+                        <a href="/recupera">
+                            <small>¿Olvidaste tu contraseña?</small>
+                        </a>
+                    </div>
+                    <div class="input-group input-group-merge">
+                        <input type="password" id="password" class="form-control" name="password" required
+                            placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
+                            aria-describedby="password" />
+                        <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <button class="btn btn-primary d-grid w-100" type="button" id="entrar">Entrar</button>
+                </div>
+            </form>
+
+            <p class="text-center">
+                <span>¿Eres nuevo en SalesPlus?</span>
+                <br>
+                <a href="/registro">
+                    <span>Crear tu cuenta de SalesPlus</span>
+                </a>
+            </p>
+        </div>
+    </div>
+    <!-- /Register -->
+</div>
+ <script src="../assets/vendor/libs/jquery/jquery.js"></script>
+<script>
+	$("#entrar").on("click",function () {
+		let email=$("#email").val()
+		let pass=$("#password").val()
+		var socket = io.connect("https://salesplusapi.danielbarbosa34.repl.co", {
+  transports: [ "websocket" ]
+})
+		socket.on("connect",() => {
+			let jsonObject = {email:email,password:pass}
+  		socket.emit("login",jsonObject)
+			socket.on("auth",() =>{
+				location.href="./home";
+			})
+		});
+		
+	})
+</script>

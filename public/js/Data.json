@@ -1,0 +1,2497 @@
+{
+"Cliente":[
+ {
+  "UUID": "5c73a980-c51f-72dd-d3e1-b7f4c911960d",
+  "Nombre": "Cliente Prueba 2",
+  "Fecha": 44636,
+  "Vendedor": "Vendedor 3",
+  "Pais": "México",
+  "Estado": "Nuevo León",
+  "Status": "Prospecto poco interesado",
+  "Indice": 2,
+  "Giro": "Construccion",
+  "Fuente": "Correo"
+ },
+ {
+  "UUID": "a3125188-f1ae-6158-e3b1-d4e51ccb47d6",
+  "Nombre": "Cliente Prueba 3",
+  "Fecha": 44693,
+  "Vendedor": "Vendedor 5",
+  "Pais": "México",
+  "Estado": "Guadalajara",
+  "Status": "Cliente",
+  "Indice": 3,
+  "Giro": "Arquitectura",
+  "Fuente": "Instagram"
+ },
+ {
+  "UUID": "9ea3824d-2561-3e55-fdf8-27db79ba4ed4",
+  "Nombre": "Cliente Prueba 4",
+  "Fecha": 44794,
+  "Vendedor": "Vendedor 6",
+  "Pais": "México",
+  "Estado": "Guadalajara",
+  "Status": "Contacto no interesado",
+  "Indice": 4,
+  "Giro": "Otros Servicios",
+  "Fuente": "Facebook"
+ },
+ {
+  "UUID": "49e766a5-9719-2903-9457-f8921b3f7a95",
+  "Nombre": "Cliente Prueba 5",
+  "Fecha": 44003,
+  "Vendedor": "Vendedor 6",
+  "Pais": "México",
+  "Estado": "Guadalajara",
+  "Status": "Contacto no interesado",
+  "Indice": 5,
+  "Giro": "Construccion",
+  "Fuente": "Facebook"
+ },
+ {
+  "UUID": "3ea5dd20-1e1d-a96f-9a93-06944cf37870",
+  "Nombre": "Cliente Prueba 6",
+  "Fecha": 44380,
+  "Vendedor": "Vendedor 4",
+  "Pais": "México",
+  "Estado": "Nuevo León",
+  "Status": "Contacto no interesado",
+  "Indice": 6,
+  "Giro": "Construccion",
+  "Fuente": "Facebook"
+ },
+ {
+  "UUID": "063dea0f-b6ee-ea36-8039-87ab121e3b15",
+  "Nombre": "Cliente Prueba 7",
+  "Fecha": 44052,
+  "Vendedor": "Vendedor 6",
+  "Pais": "México",
+  "Estado": "Nuevo León",
+  "Status": "Contacto no interesado",
+  "Indice": 7,
+  "Giro": "Arquitectura",
+  "Fuente": "Correo"
+ },
+ {
+  "UUID": "28000863-8afb-ceff-c656-f0f0c39aadda",
+  "Nombre": "Cliente Prueba 8",
+  "Fecha": 44119,
+  "Vendedor": "Vendedor 2",
+  "Pais": "México",
+  "Estado": "CDMX",
+  "Status": "Contacto no interesado",
+  "Indice": 8,
+  "Giro": "Construccion",
+  "Fuente": "Correo"
+ },
+ {
+  "UUID": "23370857-0772-c920-3a14-6aa96211a025",
+  "Nombre": "Cliente Prueba 9",
+  "Fecha": 44135,
+  "Vendedor": "Vendedor 7",
+  "Pais": "México",
+  "Estado": "Guadalajara",
+  "Status": "Contacto no interesado",
+  "Indice": 9,
+  "Giro": "Tecnología",
+  "Fuente": "Instagram"
+ },
+ {
+  "UUID": "75a7c6aa-1672-185c-833e-4c8a294e5045",
+  "Nombre": "Cliente Prueba 10",
+  "Fecha": 44345,
+  "Vendedor": "Vendedor 5",
+  "Pais": "México",
+  "Estado": "CDMX",
+  "Status": "Prospecto interesado",
+  "Indice": 10,
+  "Giro": "Construccion",
+  "Fuente": "Llamada"
+ },
+ {
+  "UUID": "38189b1b-86e2-b360-7137-b07842a4c128",
+  "Nombre": "Cliente Prueba 11",
+  "Fecha": 44914,
+  "Vendedor": "Vendedor 3",
+  "Pais": "México",
+  "Estado": "Guadalajara",
+  "Status": "Cliente",
+  "Indice": 11,
+  "Giro": "Tecnología",
+  "Fuente": "Correo"
+ },
+ {
+  "UUID": "bf2c123b-8d64-b3d6-56c2-535efbad5030",
+  "Nombre": "Cliente Prueba 12",
+  "Fecha": 44016,
+  "Vendedor": "Vendedor 5",
+  "Pais": "México",
+  "Estado": "CDMX",
+  "Status": "Prospecto interesado",
+  "Indice": 12,
+  "Giro": "Construccion",
+  "Fuente": "Correo"
+ },
+ {
+  "UUID": "15fd65a3-60ba-0ecc-e24c-3887a2e5576c",
+  "Nombre": "Cliente Prueba 13",
+  "Fecha": 44961,
+  "Vendedor": "Vendedor 3",
+  "Pais": "México",
+  "Estado": "CDMX",
+  "Status": "Prospecto interesado",
+  "Indice": 13,
+  "Giro": "Otros Servicios",
+  "Fuente": "Correo"
+ },
+ {
+  "UUID": "c37853a8-8978-3349-f88d-2934eaf4a1d4",
+  "Nombre": "Cliente Prueba 14",
+  "Fecha": 44049,
+  "Vendedor": "Vendedor 6",
+  "Pais": "México",
+  "Estado": "Nuevo León",
+  "Status": "Prospecto poco interesado",
+  "Indice": 14,
+  "Giro": "Tecnología",
+  "Fuente": "Llamada"
+ },
+ {
+  "UUID": "9f563238-85d5-87e2-5e33-ae23fb7312a9",
+  "Nombre": "Cliente Prueba 15",
+  "Fecha": 44900,
+  "Vendedor": "Vendedor 4",
+  "Pais": "México",
+  "Estado": "CDMX",
+  "Status": "Cliente",
+  "Indice": 15,
+  "Giro": "Otros Servicios",
+  "Fuente": "Correo"
+ },
+ {
+  "UUID": "8a88bee2-d43f-6e82-51ce-0b3162eb159d",
+  "Nombre": "Cliente Prueba 16",
+  "Fecha": 44017,
+  "Vendedor": "Vendedor 3",
+  "Pais": "México",
+  "Estado": "Nuevo León",
+  "Status": "Prospecto interesado",
+  "Indice": 16,
+  "Giro": "Construccion",
+  "Fuente": "Instagram"
+ },
+ {
+  "UUID": "4da274bf-db31-9c53-527d-3198b47faa4b",
+  "Nombre": "Cliente Prueba 17",
+  "Fecha": 44467,
+  "Vendedor": "Vendedor 3",
+  "Pais": "México",
+  "Estado": "Guadalajara",
+  "Status": "Contacto no interesado",
+  "Indice": 17,
+  "Giro": "Otros Servicios",
+  "Fuente": "Facebook"
+ },
+ {
+  "UUID": "c4e4489f-1e56-c9ab-ae8b-4b76b272ec23",
+  "Nombre": "Cliente Prueba 18",
+  "Fecha": 44920,
+  "Vendedor": "Vendedor 3",
+  "Pais": "México",
+  "Estado": "Guadalajara",
+  "Status": "Contacto no interesado",
+  "Indice": 18,
+  "Giro": "Arquitectura",
+  "Fuente": "Instagram"
+ },
+ {
+  "UUID": "d35d2500-6dc0-103a-45d5-c5f73a0d8d25",
+  "Nombre": "Cliente Prueba 19",
+  "Fecha": 44588,
+  "Vendedor": "Vendedor 7",
+  "Pais": "México",
+  "Estado": "CDMX",
+  "Status": "Prospecto interesado",
+  "Indice": 19,
+  "Giro": "Otros Servicios",
+  "Fuente": "Instagram"
+ },
+ {
+  "UUID": "2a7f12b4-d300-a33f-d641-cb97353f5fe4",
+  "Nombre": "Cliente Prueba 20",
+  "Fecha": 43878,
+  "Vendedor": "Vendedor 7",
+  "Pais": "México",
+  "Estado": "Guadalajara",
+  "Status": "Contacto no interesado",
+  "Indice": 20,
+  "Giro": "Otros Servicios",
+  "Fuente": "Llamada"
+ },
+ {
+  "UUID": "e5514f34-dc93-0544-8a89-c2db7d09b224",
+  "Nombre": "Cliente Prueba 21",
+  "Fecha": 44413,
+  "Vendedor": "Vendedor 2",
+  "Pais": "México",
+  "Estado": "Guadalajara",
+  "Status": "Prospecto poco interesado",
+  "Indice": 21,
+  "Giro": "Tecnología",
+  "Fuente": "Correo"
+ },
+ {
+  "UUID": "d2fc2205-e619-68a4-693b-76b663804dc3",
+  "Nombre": "Cliente Prueba 22",
+  "Fecha": 44626,
+  "Vendedor": "Vendedor 4",
+  "Pais": "México",
+  "Estado": "Nuevo León",
+  "Status": "Prospecto interesado",
+  "Indice": 22,
+  "Giro": "Construccion",
+  "Fuente": "Instagram"
+ },
+ {
+  "UUID": "d31a0f6b-df51-07cb-6618-4dfa843c902d",
+  "Nombre": "Cliente Prueba 23",
+  "Fecha": 44568,
+  "Vendedor": "Vendedor 8",
+  "Pais": "México",
+  "Estado": "CDMX",
+  "Status": "Prospecto interesado",
+  "Indice": 23,
+  "Giro": "Tecnología",
+  "Fuente": "Instagram"
+ },
+ {
+  "UUID": "8812371f-3ae4-e96b-91d4-70ccb361ea56",
+  "Nombre": "Cliente Prueba 24",
+  "Fecha": 44669,
+  "Vendedor": "Vendedor 4",
+  "Pais": "México",
+  "Estado": "Guadalajara",
+  "Status": "Prospecto interesado",
+  "Indice": 24,
+  "Giro": "Construccion",
+  "Fuente": "Instagram"
+ },
+ {
+  "UUID": "15eee1b9-c637-4a74-ae1a-e69e8ab4228f",
+  "Nombre": "Cliente Prueba 25",
+  "Fecha": 44550,
+  "Vendedor": "Vendedor 4",
+  "Pais": "México",
+  "Estado": "CDMX",
+  "Status": "Cliente",
+  "Indice": 25,
+  "Giro": "Arquitectura",
+  "Fuente": "Correo"
+ },
+ {
+  "UUID": "f522b060-d622-c38e-0a80-a16b2245ee34",
+  "Nombre": "Cliente Prueba 26",
+  "Fecha": 44456,
+  "Vendedor": "Vendedor 6",
+  "Pais": "México",
+  "Estado": "Guadalajara",
+  "Status": "Contacto no interesado",
+  "Indice": 26,
+  "Giro": "Tecnología",
+  "Fuente": "Facebook"
+ },
+ {
+  "UUID": "d2b28cb8-4c50-ce51-9fcd-c514e12188b1",
+  "Nombre": "Cliente Prueba 27",
+  "Fecha": 44374,
+  "Vendedor": "Vendedor 2",
+  "Pais": "México",
+  "Estado": "Nuevo León",
+  "Status": "Cliente",
+  "Indice": 27,
+  "Giro": "Construccion",
+  "Fuente": "Instagram"
+ },
+ {
+  "UUID": "32463d77-7b26-9387-fd6d-54cf573fb5ef",
+  "Nombre": "Cliente Prueba 28",
+  "Fecha": 44766,
+  "Vendedor": "Vendedor 6",
+  "Pais": "México",
+  "Estado": "CDMX",
+  "Status": "Prospecto poco interesado",
+  "Indice": 28,
+  "Giro": "Tecnología",
+  "Fuente": "Instagram"
+ },
+ {
+  "UUID": "045c7e81-bff3-e5aa-3f2c-c097c4a7d8ae",
+  "Nombre": "Cliente Prueba 29",
+  "Fecha": 44165,
+  "Vendedor": "Vendedor 7",
+  "Pais": "México",
+  "Estado": "Guadalajara",
+  "Status": "Cliente",
+  "Indice": 29,
+  "Giro": "Otros Servicios",
+  "Fuente": "Instagram"
+ },
+ {
+  "UUID": "80090a8c-c7ed-fa31-4a62-353cfcfd9628",
+  "Nombre": "Cliente Prueba 30",
+  "Fecha": 44895,
+  "Vendedor": "Vendedor 5",
+  "Pais": "México",
+  "Estado": "CDMX",
+  "Status": "Prospecto interesado",
+  "Indice": 30,
+  "Giro": "Otros Servicios",
+  "Fuente": "Correo"
+ }
+],
+"Seguimiento":[
+ {
+  "UUID Cliente": "556e339d-9dab-75af-035a-7936bc48a552",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 45269,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "2f4d8887-cda0-8b95-02a2-94df9750d06f",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 44133,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "2f4d8887-cda0-8b95-02a2-94df9750d06f",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 44315,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "1b325640-d927-3c0f-6738-a5b3e30584f8",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44547,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "2f4d8887-cda0-8b95-02a2-94df9750d06f",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44257,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "5dd0a274-9ea8-4cef-6583-d06f2b424c10",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 44103,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "4b5305cd-2fc8-acd5-a5aa-66b73a3ce76e",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44388,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "f5460f01-2c8c-e504-1234-73e99cf16ec2",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44457,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "f5460f01-2c8c-e504-1234-73e99cf16ec2",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44600,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "a8d5c279-a946-274b-b61a-ed65968c2d36",
+  "Tipo Actividad": "Whatsapp",
+  "Fecha Actividad": 44078,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "3def52ec-8281-be41-4cd1-de255d1815b1",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 45057,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "224498d3-efc7-21be-04c0-601a2e20d991",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44574,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "2f4d8887-cda0-8b95-02a2-94df9750d06f",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44016,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "2f4d8887-cda0-8b95-02a2-94df9750d06f",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 44023,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "9fecab0e-a973-456d-aa11-9262903ecb81",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 45143,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "e1475b11-7759-4bda-e481-db67825ea18d",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44141,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "4b5305cd-2fc8-acd5-a5aa-66b73a3ce76e",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44468,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "59e33178-8e64-e828-4340-31b46a304ebb",
+  "Tipo Actividad": "Whatsapp",
+  "Fecha Actividad": 45135,
+  "Status Actividad": "Activa"
+ },
+ {
+  "UUID Cliente": "6cf99881-721c-7fa6-a998-cf22c031e7ca",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 44414,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "42e42664-5ae7-328d-9f20-749a8aa46b63",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 45009,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "556e339d-9dab-75af-035a-7936bc48a552",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 45315,
+  "Status Actividad": "Activa"
+ },
+ {
+  "UUID Cliente": "3def52ec-8281-be41-4cd1-de255d1815b1",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44911,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "5dd0a274-9ea8-4cef-6583-d06f2b424c10",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 44227,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "59e33178-8e64-e828-4340-31b46a304ebb",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 45406,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "4d40df46-26d8-6233-adf8-0c5bacae15df",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44584,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "e1475b11-7759-4bda-e481-db67825ea18d",
+  "Tipo Actividad": "Whatsapp",
+  "Fecha Actividad": 44084,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "a8d5c279-a946-274b-b61a-ed65968c2d36",
+  "Tipo Actividad": "Whatsapp",
+  "Fecha Actividad": 44056,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "2f4d8887-cda0-8b95-02a2-94df9750d06f",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44211,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "4d40df46-26d8-6233-adf8-0c5bacae15df",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44267,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "dd4bc624-0a2f-620f-b9b4-f8a6a57675b3",
+  "Tipo Actividad": "Whatsapp",
+  "Fecha Actividad": 45392,
+  "Status Actividad": "Activa"
+ },
+ {
+  "UUID Cliente": "1b325640-d927-3c0f-6738-a5b3e30584f8",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44639,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "42e42664-5ae7-328d-9f20-749a8aa46b63",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44971,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "6cf99881-721c-7fa6-a998-cf22c031e7ca",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44390,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "a8d5c279-a946-274b-b61a-ed65968c2d36",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44211,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "b8d24226-cca4-f63d-9bc4-2e11e3780dd4",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44709,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "a727bd51-5997-0fcd-5161-481eba253657",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 45183,
+  "Status Actividad": "Activa"
+ },
+ {
+  "UUID Cliente": "1b325640-d927-3c0f-6738-a5b3e30584f8",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 44440,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "3def52ec-8281-be41-4cd1-de255d1815b1",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 45074,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "32a6818e-9c54-d23e-7e8a-1b1cb17b8024",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 45177,
+  "Status Actividad": "Activa"
+ },
+ {
+  "UUID Cliente": "be7ca803-a44a-8e78-66fc-96ff3dabf3fd",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 45360,
+  "Status Actividad": "Activa"
+ },
+ {
+  "UUID Cliente": "e1475b11-7759-4bda-e481-db67825ea18d",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44041,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "f2b08eb8-b114-0d3f-e553-10b3038d15ed",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44249,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "556e339d-9dab-75af-035a-7936bc48a552",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 45031,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "d16672e9-2290-7756-7368-0ae205eed049",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 44032,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "be7ca803-a44a-8e78-66fc-96ff3dabf3fd",
+  "Tipo Actividad": "Whatsapp",
+  "Fecha Actividad": 45442,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "556e339d-9dab-75af-035a-7936bc48a552",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 45025,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "a727bd51-5997-0fcd-5161-481eba253657",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44985,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "3def52ec-8281-be41-4cd1-de255d1815b1",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 45112,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "be7ca803-a44a-8e78-66fc-96ff3dabf3fd",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 45104,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "6f02202f-df21-e656-a75d-4a614e86f819",
+  "Tipo Actividad": "Whatsapp",
+  "Fecha Actividad": 44780,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "e1475b11-7759-4bda-e481-db67825ea18d",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44051,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "f5460f01-2c8c-e504-1234-73e99cf16ec2",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44389,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "5c3814c4-13e7-d2da-2761-513601553734",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44089,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "3def52ec-8281-be41-4cd1-de255d1815b1",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 45148,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "5dd0a274-9ea8-4cef-6583-d06f2b424c10",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 44185,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "f5460f01-2c8c-e504-1234-73e99cf16ec2",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 44438,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "43095c8d-7032-c7f1-db08-9df46344ff26",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44436,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "4d40df46-26d8-6233-adf8-0c5bacae15df",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 44576,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "4b5305cd-2fc8-acd5-a5aa-66b73a3ce76e",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44396,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "43095c8d-7032-c7f1-db08-9df46344ff26",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 44694,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "2f4d8887-cda0-8b95-02a2-94df9750d06f",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 44151,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "be7ca803-a44a-8e78-66fc-96ff3dabf3fd",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 45179,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "be7ca803-a44a-8e78-66fc-96ff3dabf3fd",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 45361,
+  "Status Actividad": "Activa"
+ },
+ {
+  "UUID Cliente": "4b5305cd-2fc8-acd5-a5aa-66b73a3ce76e",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44227,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "d16672e9-2290-7756-7368-0ae205eed049",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44016,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "dd4bc624-0a2f-620f-b9b4-f8a6a57675b3",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 45087,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "1b325640-d927-3c0f-6738-a5b3e30584f8",
+  "Tipo Actividad": "Whatsapp",
+  "Fecha Actividad": 44606,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "1b325640-d927-3c0f-6738-a5b3e30584f8",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44681,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "42e42664-5ae7-328d-9f20-749a8aa46b63",
+  "Tipo Actividad": "Whatsapp",
+  "Fecha Actividad": 44986,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "4d40df46-26d8-6233-adf8-0c5bacae15df",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44455,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "d16672e9-2290-7756-7368-0ae205eed049",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44088,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "5c3814c4-13e7-d2da-2761-513601553734",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 44248,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "7f7e9af8-a8f5-2864-e42d-6c65ec0d3b9c",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44740,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "4b5305cd-2fc8-acd5-a5aa-66b73a3ce76e",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 44405,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "a727bd51-5997-0fcd-5161-481eba253657",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44913,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "6a7c2019-874f-3619-58c5-3d4c7e9869cd",
+  "Tipo Actividad": "Whatsapp",
+  "Fecha Actividad": 44773,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "dd4bc624-0a2f-620f-b9b4-f8a6a57675b3",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 45103,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "3def52ec-8281-be41-4cd1-de255d1815b1",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44858,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "7f7e9af8-a8f5-2864-e42d-6c65ec0d3b9c",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44686,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "3def52ec-8281-be41-4cd1-de255d1815b1",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 45076,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "9fecab0e-a973-456d-aa11-9262903ecb81",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 44878,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "be7ca803-a44a-8e78-66fc-96ff3dabf3fd",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 45432,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "f5460f01-2c8c-e504-1234-73e99cf16ec2",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 44577,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "42e42664-5ae7-328d-9f20-749a8aa46b63",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44984,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "556e339d-9dab-75af-035a-7936bc48a552",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 45211,
+  "Status Actividad": "Activa"
+ },
+ {
+  "UUID Cliente": "5c3814c4-13e7-d2da-2761-513601553734",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 44011,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "be7ca803-a44a-8e78-66fc-96ff3dabf3fd",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 45285,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "9fecab0e-a973-456d-aa11-9262903ecb81",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 45099,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "42e42664-5ae7-328d-9f20-749a8aa46b63",
+  "Tipo Actividad": "Whatsapp",
+  "Fecha Actividad": 44880,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "f5460f01-2c8c-e504-1234-73e99cf16ec2",
+  "Tipo Actividad": "Whatsapp",
+  "Fecha Actividad": 44560,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "1b325640-d927-3c0f-6738-a5b3e30584f8",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44620,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "1b325640-d927-3c0f-6738-a5b3e30584f8",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44584,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "2f4d8887-cda0-8b95-02a2-94df9750d06f",
+  "Tipo Actividad": "Whatsapp",
+  "Fecha Actividad": 44301,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "be7ca803-a44a-8e78-66fc-96ff3dabf3fd",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 45120,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "dd4bc624-0a2f-620f-b9b4-f8a6a57675b3",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 45309,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "b8d24226-cca4-f63d-9bc4-2e11e3780dd4",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44630,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "224498d3-efc7-21be-04c0-601a2e20d991",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44699,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "e1475b11-7759-4bda-e481-db67825ea18d",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44229,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "3def52ec-8281-be41-4cd1-de255d1815b1",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44906,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "a8d5c279-a946-274b-b61a-ed65968c2d36",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44144,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "6a7c2019-874f-3619-58c5-3d4c7e9869cd",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44728,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "32a6818e-9c54-d23e-7e8a-1b1cb17b8024",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 45066,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "4d40df46-26d8-6233-adf8-0c5bacae15df",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44498,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "42e42664-5ae7-328d-9f20-749a8aa46b63",
+  "Tipo Actividad": "Whatsapp",
+  "Fecha Actividad": 44862,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "9fecab0e-a973-456d-aa11-9262903ecb81",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 45088,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "6cf99881-721c-7fa6-a998-cf22c031e7ca",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 44422,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "42e42664-5ae7-328d-9f20-749a8aa46b63",
+  "Tipo Actividad": "Whatsapp",
+  "Fecha Actividad": 44852,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "7f7e9af8-a8f5-2864-e42d-6c65ec0d3b9c",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44827,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "2f4d8887-cda0-8b95-02a2-94df9750d06f",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44202,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "59e33178-8e64-e828-4340-31b46a304ebb",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 45374,
+  "Status Actividad": "Activa"
+ },
+ {
+  "UUID Cliente": "5c3814c4-13e7-d2da-2761-513601553734",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44239,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "6a7c2019-874f-3619-58c5-3d4c7e9869cd",
+  "Tipo Actividad": "Whatsapp",
+  "Fecha Actividad": 44742,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "4d40df46-26d8-6233-adf8-0c5bacae15df",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44294,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "aac46afa-a353-9c95-9bc0-4cb356e7a79f",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44572,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "5c3814c4-13e7-d2da-2761-513601553734",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44201,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "3def52ec-8281-be41-4cd1-de255d1815b1",
+  "Tipo Actividad": "Whatsapp",
+  "Fecha Actividad": 44940,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "4d40df46-26d8-6233-adf8-0c5bacae15df",
+  "Tipo Actividad": "Whatsapp",
+  "Fecha Actividad": 44288,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "b0d8457a-5c2f-fb89-749e-09a5bdc86bee",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 44941,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "b0d8457a-5c2f-fb89-749e-09a5bdc86bee",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44626,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "6a7c2019-874f-3619-58c5-3d4c7e9869cd",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44633,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "1b325640-d927-3c0f-6738-a5b3e30584f8",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 44471,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "3def52ec-8281-be41-4cd1-de255d1815b1",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44981,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "1b325640-d927-3c0f-6738-a5b3e30584f8",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 44665,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "f2b08eb8-b114-0d3f-e553-10b3038d15ed",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44310,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "5dd0a274-9ea8-4cef-6583-d06f2b424c10",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 44291,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "5dd0a274-9ea8-4cef-6583-d06f2b424c10",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 44307,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "6a7c2019-874f-3619-58c5-3d4c7e9869cd",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44821,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "556e339d-9dab-75af-035a-7936bc48a552",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 45147,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "f2b08eb8-b114-0d3f-e553-10b3038d15ed",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44405,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "b0d8457a-5c2f-fb89-749e-09a5bdc86bee",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44693,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "b0d8457a-5c2f-fb89-749e-09a5bdc86bee",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44835,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "aac46afa-a353-9c95-9bc0-4cb356e7a79f",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 44297,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "1b325640-d927-3c0f-6738-a5b3e30584f8",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44520,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "42e42664-5ae7-328d-9f20-749a8aa46b63",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44835,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "3def52ec-8281-be41-4cd1-de255d1815b1",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 45097,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "dd4bc624-0a2f-620f-b9b4-f8a6a57675b3",
+  "Tipo Actividad": "Correo",
+  "Fecha Actividad": 45381,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "aac46afa-a353-9c95-9bc0-4cb356e7a79f",
+  "Tipo Actividad": "Visita",
+  "Fecha Actividad": 44533,
+  "Status Actividad": "Terminada"
+ },
+ {
+  "UUID Cliente": "2f4d8887-cda0-8b95-02a2-94df9750d06f",
+  "Tipo Actividad": "Whatsapp",
+  "Fecha Actividad": 44137,
+  "Status Actividad": "Vencida"
+ },
+ {
+  "UUID Cliente": "42e42664-5ae7-328d-9f20-749a8aa46b63",
+  "Tipo Actividad": "Llamada",
+  "Fecha Actividad": 45002,
+  "Status Actividad": "Terminada"
+ }
+],
+"Oportunidades":[
+ {
+  "UUID OP": "aa72045c-e1cc-bf40-2660-e28c40130772",
+  "UUID Cliente": "2c6f6c3e-1192-232c-6b70-9457d27d6736",
+  "Fecha": "04/02/2022",
+  "Fecha Estimada Cierre": "06/06/2022",
+  "Producto": "Producto Prueba 10011",
+  "Importe": 41507,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "b691aea4-982a-2858-7059-4dc5a4eeb41a",
+  "UUID Cliente": "54c26cf7-1d48-6e0c-bcd2-2b8de4526a06",
+  "Fecha": "08/13/2022",
+  "Fecha Estimada Cierre": "10/03/2022",
+  "Producto": "Producto Prueba 10005",
+  "Importe": 91491,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "835b6fdd-d656-2597-ccb8-693930374f93",
+  "UUID Cliente": "fc9de619-b89c-043d-d1e4-0a5edc0f9ea2",
+  "Fecha": "07/22/2022",
+  "Fecha Estimada Cierre": "08/26/2022",
+  "Producto": "Producto Prueba 10011",
+  "Importe": 49075,
+  "Estatus": "Aceptada"
+ },
+ {
+  "UUID OP": "ebac9621-ab0f-9a16-b140-ca8a9489aa69",
+  "UUID Cliente": "5f17f50a-c1a3-d822-fc4b-b4a0a5eb925d",
+  "Fecha": "12/16/2022",
+  "Fecha Estimada Cierre": "02/28/2023",
+  "Producto": "Producto Prueba 10005",
+  "Importe": 73913,
+  "Estatus": "Aceptada"
+ },
+ {
+  "UUID OP": "313d645b-6c28-3cb7-8cbc-f81b767839d3",
+  "UUID Cliente": "12bf10bb-255e-2c66-367b-41a3fdd5d0d0",
+  "Fecha": "09/14/2021",
+  "Fecha Estimada Cierre": "01/02/2022",
+  "Producto": "Producto Prueba 10010",
+  "Importe": 97129,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "8b244bdc-9a7b-ea5d-0901-fb65f0b8e0be",
+  "UUID Cliente": "6a416b41-4531-03a8-2c5d-0a08b3c7bb45",
+  "Fecha": "03/18/2020",
+  "Fecha Estimada Cierre": "06/28/2020",
+  "Producto": "Producto Prueba 10004",
+  "Importe": 38743,
+  "Estatus": "Perdida"
+ },
+ {
+  "UUID OP": "13c7d3d1-84b5-8fee-b360-64d35766e4e0",
+  "UUID Cliente": "f8bdfa5b-a126-ec45-cd42-a64f922d33c0",
+  "Fecha": "04/28/2023",
+  "Fecha Estimada Cierre": "06/06/2023",
+  "Producto": "Producto Prueba 10004",
+  "Importe": 32840,
+  "Estatus": "Aceptada"
+ },
+ {
+  "UUID OP": "79e84021-f827-4b57-6e25-ba55555ebcf3",
+  "UUID Cliente": "a5e42e31-a5b8-1f15-60d8-6dde3c0f05d6",
+  "Fecha": "10/11/2020",
+  "Fecha Estimada Cierre": "01/10/2021",
+  "Producto": "Producto Prueba 10001",
+  "Importe": 93792,
+  "Estatus": "Aceptada"
+ },
+ {
+  "UUID OP": "99c32c97-d892-b6be-bd7e-afb8b30aa016",
+  "UUID Cliente": "d189326b-7c6c-5014-1a2b-ef61c40f278f",
+  "Fecha": "08/13/2021",
+  "Fecha Estimada Cierre": "09/26/2021",
+  "Producto": "Producto Prueba 10004",
+  "Importe": 20789,
+  "Estatus": "Perdida"
+ },
+ {
+  "UUID OP": "bb2042a5-95a0-af11-a914-c468525c2106",
+  "UUID Cliente": "b131fe16-b6df-c460-1105-0707d15eb715",
+  "Fecha": "12/09/2021",
+  "Fecha Estimada Cierre": "03/06/2022",
+  "Producto": "Producto Prueba 10011",
+  "Importe": 72902,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "2fbb3975-8b5b-a99d-fcad-60a35d8c67a4",
+  "UUID Cliente": "073d867f-8a1d-2f38-19aa-e52853f75be5",
+  "Fecha": "01/25/2020",
+  "Fecha Estimada Cierre": "04/13/2020",
+  "Producto": "Producto Prueba 10002",
+  "Importe": 13161,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "eeb53579-96db-ed74-9e34-d5103fd02087",
+  "UUID Cliente": "9f85c15a-492a-565e-b250-7c0c345a0068",
+  "Fecha": "04/23/2021",
+  "Fecha Estimada Cierre": "06/08/2021",
+  "Producto": "Producto Prueba 10009",
+  "Importe": 64383,
+  "Estatus": "Caliente"
+ },
+ {
+  "UUID OP": "5cb41bef-e38c-b931-950e-7e4b12c4afbf",
+  "UUID Cliente": "5f17f50a-c1a3-d822-fc4b-b4a0a5eb925d",
+  "Fecha": "12/14/2022",
+  "Fecha Estimada Cierre": "01/26/2023",
+  "Producto": "Producto Prueba 10012",
+  "Importe": 36653,
+  "Estatus": "Caliente"
+ },
+ {
+  "UUID OP": "17f5b22e-e363-f2c4-908a-b7f37055a175",
+  "UUID Cliente": "8de05fc2-d5f4-5c75-a662-a992dd222af4",
+  "Fecha": "02/28/2022",
+  "Fecha Estimada Cierre": "04/25/2022",
+  "Producto": "Producto Prueba 10004",
+  "Importe": 45102,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "61a3fdeb-4618-17ac-7427-cb3585afb540",
+  "UUID Cliente": "0d9adcb5-6e8b-d09e-2abe-2bf50931511b",
+  "Fecha": "01/14/2020",
+  "Fecha Estimada Cierre": "02/08/2020",
+  "Producto": "Producto Prueba 10008",
+  "Importe": 70916,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "78a39573-0fcf-daa3-a23c-5eb8c550b1b0",
+  "UUID Cliente": "614fa2f0-c4ec-303d-876f-be4f302baa60",
+  "Fecha": "08/29/2020",
+  "Fecha Estimada Cierre": "09/28/2020",
+  "Producto": "Producto Prueba 10005",
+  "Importe": 87342,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "41e35a0c-67bd-c3f4-aff9-2eadf7ece8fc",
+  "UUID Cliente": "bdc822c8-f5aa-188f-fc58-c84feb3e91d9",
+  "Fecha": "05/11/2021",
+  "Fecha Estimada Cierre": "07/24/2021",
+  "Producto": "Producto Prueba 10005",
+  "Importe": 67870,
+  "Estatus": "Perdida"
+ },
+ {
+  "UUID OP": "34db92e1-2106-7886-ceb6-4d9bb7c23003",
+  "UUID Cliente": "0d9adcb5-6e8b-d09e-2abe-2bf50931511b",
+  "Fecha": "01/14/2020",
+  "Fecha Estimada Cierre": "05/08/2020",
+  "Producto": "Producto Prueba 10003",
+  "Importe": 90347,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "aa67a132-13c6-8ba5-1573-be82ab2d6f01",
+  "UUID Cliente": "b131fe16-b6df-c460-1105-0707d15eb715",
+  "Fecha": "12/08/2021",
+  "Fecha Estimada Cierre": "03/31/2022",
+  "Producto": "Producto Prueba 10012",
+  "Importe": 23719,
+  "Estatus": "Perdida"
+ },
+ {
+  "UUID OP": "7c23c9fd-fd90-6224-33fa-52726b6d14b0",
+  "UUID Cliente": "958c828c-d825-f130-7e1a-3292031fbc96",
+  "Fecha": "04/25/2022",
+  "Fecha Estimada Cierre": "07/22/2022",
+  "Producto": "Producto Prueba 10006",
+  "Importe": 24767,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "443bc6ea-f271-6d96-456a-73c77bae15b4",
+  "UUID Cliente": "a5e42e31-a5b8-1f15-60d8-6dde3c0f05d6",
+  "Fecha": "10/07/2020",
+  "Fecha Estimada Cierre": "01/23/2021",
+  "Producto": "Producto Prueba 10004",
+  "Importe": 95039,
+  "Estatus": "Aceptada"
+ },
+ {
+  "UUID OP": "c2d64bde-0ca3-a404-5fbd-effef742c4b3",
+  "UUID Cliente": "8f228bda-36b8-09b0-1d01-5bd753b10162",
+  "Fecha": "08/21/2021",
+  "Fecha Estimada Cierre": "09/26/2021",
+  "Producto": "Producto Prueba 10001",
+  "Importe": 18102,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "2b6ce877-0a9e-3c8f-52a2-927855fc22ee",
+  "UUID Cliente": "5356e3fd-0318-32c3-51fc-b4b0ea0380d3",
+  "Fecha": "02/06/2022",
+  "Fecha Estimada Cierre": "04/12/2022",
+  "Producto": "Producto Prueba 10006",
+  "Importe": 47137,
+  "Estatus": "Aceptada"
+ },
+ {
+  "UUID OP": "0f4d9e1c-e8c3-7184-0873-555558625a22",
+  "UUID Cliente": "d95d2588-a054-7404-df2e-4c10d88dfb17",
+  "Fecha": "10/02/2020",
+  "Fecha Estimada Cierre": "12/06/2020",
+  "Producto": "Producto Prueba 10008",
+  "Importe": 12002,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "df6905bc-a738-8d8e-5c78-67c19ad60fbd",
+  "UUID Cliente": "8f228bda-36b8-09b0-1d01-5bd753b10162",
+  "Fecha": "08/21/2021",
+  "Fecha Estimada Cierre": "10/14/2021",
+  "Producto": "Producto Prueba 10003",
+  "Importe": 60267,
+  "Estatus": "Perdida"
+ },
+ {
+  "UUID OP": "46bca045-ba95-972e-305b-8e6bee906e26",
+  "UUID Cliente": "939ed84d-9b00-2c25-d2ef-0c0811b4f30c",
+  "Fecha": "02/18/2021",
+  "Fecha Estimada Cierre": "05/17/2021",
+  "Producto": "Producto Prueba 10007",
+  "Importe": 41290,
+  "Estatus": "Caliente"
+ },
+ {
+  "UUID OP": "583555e2-bfd7-0f14-1b65-fffa8fcba184",
+  "UUID Cliente": "7f2afa6b-a965-c03c-6b99-b1624e4bc092",
+  "Fecha": "02/02/2023",
+  "Fecha Estimada Cierre": "04/22/2023",
+  "Producto": "Producto Prueba 10008",
+  "Importe": 81227,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "801466ea-b91d-9b5f-2eea-3c4293a2141c",
+  "UUID Cliente": "2bf7e318-6c4d-6709-7d40-a58bd9ca0440",
+  "Fecha": "12/27/2021",
+  "Fecha Estimada Cierre": "04/02/2022",
+  "Producto": "Producto Prueba 10001",
+  "Importe": 46810,
+  "Estatus": "Caliente"
+ },
+ {
+  "UUID OP": "0243ef3e-7541-0e9e-d1d7-c8e8f7721043",
+  "UUID Cliente": "a5e42e31-a5b8-1f15-60d8-6dde3c0f05d6",
+  "Fecha": "10/11/2020",
+  "Fecha Estimada Cierre": "01/28/2021",
+  "Producto": "Producto Prueba 10007",
+  "Importe": 34557,
+  "Estatus": "Perdida"
+ },
+ {
+  "UUID OP": "5524c848-9c34-fdd1-9513-d44884a6d6e9",
+  "UUID Cliente": "2bf7e318-6c4d-6709-7d40-a58bd9ca0440",
+  "Fecha": "12/29/2021",
+  "Fecha Estimada Cierre": "01/26/2022",
+  "Producto": "Producto Prueba 10006",
+  "Importe": 87995,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "5e07242a-bb3d-8e49-7531-bf29539c4cb4",
+  "UUID Cliente": "f8bdfa5b-a126-ec45-cd42-a64f922d33c0",
+  "Fecha": "04/28/2023",
+  "Fecha Estimada Cierre": "06/14/2023",
+  "Producto": "Producto Prueba 10005",
+  "Importe": 56938,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "4562021d-91c5-590a-5cc6-d3bf0f5ae25a",
+  "UUID Cliente": "88505ba0-eb02-5ac4-d4e8-787eab0514e9",
+  "Fecha": "07/07/2020",
+  "Fecha Estimada Cierre": "10/28/2020",
+  "Producto": "Producto Prueba 10004",
+  "Importe": 90545,
+  "Estatus": "Aceptada"
+ },
+ {
+  "UUID OP": "7b69a195-7d8b-f05b-fefe-57998c1b259a",
+  "UUID Cliente": "b131fe16-b6df-c460-1105-0707d15eb715",
+  "Fecha": "12/11/2021",
+  "Fecha Estimada Cierre": "01/27/2022",
+  "Producto": "Producto Prueba 10008",
+  "Importe": 31421,
+  "Estatus": "Perdida"
+ },
+ {
+  "UUID OP": "ed59b6f0-9947-af0d-0a4e-48a6aa4793e9",
+  "UUID Cliente": "958c828c-d825-f130-7e1a-3292031fbc96",
+  "Fecha": "04/26/2022",
+  "Fecha Estimada Cierre": "08/23/2022",
+  "Producto": "Producto Prueba 10003",
+  "Importe": 26755,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "94fe46d6-92e1-d294-f731-3d8daa276ee9",
+  "UUID Cliente": "d95d2588-a054-7404-df2e-4c10d88dfb17",
+  "Fecha": "09/30/2020",
+  "Fecha Estimada Cierre": "12/01/2020",
+  "Producto": "Producto Prueba 10006",
+  "Importe": 46349,
+  "Estatus": "Caliente"
+ },
+ {
+  "UUID OP": "6fed801f-27bb-cca3-a49f-bfdc7132759a",
+  "UUID Cliente": "b131fe16-b6df-c460-1105-0707d15eb715",
+  "Fecha": "12/08/2021",
+  "Fecha Estimada Cierre": "04/01/2022",
+  "Producto": "Producto Prueba 10006",
+  "Importe": 24563,
+  "Estatus": "Caliente"
+ },
+ {
+  "UUID OP": "79780b91-82c0-d005-bab2-b0e4e91572e6",
+  "UUID Cliente": "8f228bda-36b8-09b0-1d01-5bd753b10162",
+  "Fecha": "08/20/2021",
+  "Fecha Estimada Cierre": "12/06/2021",
+  "Producto": "Producto Prueba 10001",
+  "Importe": 24904,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "014bc40a-99f5-55a8-2afe-f538f8c77cff",
+  "UUID Cliente": "0d9adcb5-6e8b-d09e-2abe-2bf50931511b",
+  "Fecha": "01/13/2020",
+  "Fecha Estimada Cierre": "02/16/2020",
+  "Producto": "Producto Prueba 10001",
+  "Importe": 72038,
+  "Estatus": "Aceptada"
+ },
+ {
+  "UUID OP": "0741f402-b58a-0ea8-7608-ff9484e97a4d",
+  "UUID Cliente": "0b3410cb-0d19-9fce-856f-0a480482e21a",
+  "Fecha": "01/13/2022",
+  "Fecha Estimada Cierre": "03/13/2022",
+  "Producto": "Producto Prueba 10005",
+  "Importe": 94180,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "7fc3d638-bbc3-a5cd-9de1-d2d97b49cac2",
+  "UUID Cliente": "4bde99c4-3fbd-4c89-1c1d-193979526408",
+  "Fecha": "10/16/2020",
+  "Fecha Estimada Cierre": "11/07/2020",
+  "Producto": "Producto Prueba 10012",
+  "Importe": 84915,
+  "Estatus": "Perdida"
+ },
+ {
+  "UUID OP": "0c985f7c-c95d-bd9d-92ba-12ef2174b606",
+  "UUID Cliente": "bdc822c8-f5aa-188f-fc58-c84feb3e91d9",
+  "Fecha": "05/08/2021",
+  "Fecha Estimada Cierre": "08/03/2021",
+  "Producto": "Producto Prueba 10001",
+  "Importe": 89741,
+  "Estatus": "Caliente"
+ },
+ {
+  "UUID OP": "d0bcb6f5-30e6-1759-dc6c-b3822f87c2c8",
+  "UUID Cliente": "0909e9a7-097c-2f71-910c-7698e260dda5",
+  "Fecha": "01/22/2022",
+  "Fecha Estimada Cierre": "04/07/2022",
+  "Producto": "Producto Prueba 10006",
+  "Importe": 18424,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "3cb27e63-c732-96dc-8d2c-8362270a8378",
+  "UUID Cliente": "b131fe16-b6df-c460-1105-0707d15eb715",
+  "Fecha": "12/05/2021",
+  "Fecha Estimada Cierre": "02/05/2022",
+  "Producto": "Producto Prueba 10001",
+  "Importe": 76165,
+  "Estatus": "Aceptada"
+ },
+ {
+  "UUID OP": "68cc6b21-facc-3c56-2f46-c28a1177aba0",
+  "UUID Cliente": "7f2afa6b-a965-c03c-6b99-b1624e4bc092",
+  "Fecha": "02/01/2023",
+  "Fecha Estimada Cierre": "03/23/2023",
+  "Producto": "Producto Prueba 10002",
+  "Importe": 65294,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "5a5af2cc-2dc4-9c96-57c2-becfad7d3f22",
+  "UUID Cliente": "5356e3fd-0318-32c3-51fc-b4b0ea0380d3",
+  "Fecha": "02/06/2022",
+  "Fecha Estimada Cierre": "03/05/2022",
+  "Producto": "Producto Prueba 10010",
+  "Importe": 41985,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "488691ce-89d1-56cb-060b-41b89e3c16c1",
+  "UUID Cliente": "5f17f50a-c1a3-d822-fc4b-b4a0a5eb925d",
+  "Fecha": "12/15/2022",
+  "Fecha Estimada Cierre": "02/24/2023",
+  "Producto": "Producto Prueba 10001",
+  "Importe": 92326,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "0da11352-e84d-9fa5-3fc4-093c8ae39bf5",
+  "UUID Cliente": "7f2afa6b-a965-c03c-6b99-b1624e4bc092",
+  "Fecha": "02/02/2023",
+  "Fecha Estimada Cierre": "03/20/2023",
+  "Producto": "Producto Prueba 10008",
+  "Importe": 11075,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "fd74fe06-3deb-c886-133d-d2b211013e84",
+  "UUID Cliente": "88505ba0-eb02-5ac4-d4e8-787eab0514e9",
+  "Fecha": "07/03/2020",
+  "Fecha Estimada Cierre": "08/30/2020",
+  "Producto": "Producto Prueba 10008",
+  "Importe": 58418,
+  "Estatus": "Caliente"
+ },
+ {
+  "UUID OP": "ed5db472-8d72-8326-57b8-5a0f972a51e6",
+  "UUID Cliente": "54c26cf7-1d48-6e0c-bcd2-2b8de4526a06",
+  "Fecha": "08/11/2022",
+  "Fecha Estimada Cierre": "11/19/2022",
+  "Producto": "Producto Prueba 10005",
+  "Importe": 74052,
+  "Estatus": "Perdida"
+ },
+ {
+  "UUID OP": "ab052c9f-1435-def6-ac79-bcc7a472182b",
+  "UUID Cliente": "9319c1dc-c1cb-849b-82e3-99f8ed3b6a75",
+  "Fecha": "02/21/2021",
+  "Fecha Estimada Cierre": "05/20/2021",
+  "Producto": "Producto Prueba 10010",
+  "Importe": 94695,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "8a8618de-8363-455e-410a-e8e92ce8d231",
+  "UUID Cliente": "b131fe16-b6df-c460-1105-0707d15eb715",
+  "Fecha": "12/07/2021",
+  "Fecha Estimada Cierre": "03/04/2022",
+  "Producto": "Producto Prueba 10002",
+  "Importe": 34302,
+  "Estatus": "Aceptada"
+ },
+ {
+  "UUID OP": "bc99fcdf-befd-b61d-f2c5-515f9d23ec37",
+  "UUID Cliente": "b131fe16-b6df-c460-1105-0707d15eb715",
+  "Fecha": "12/11/2021",
+  "Fecha Estimada Cierre": "03/18/2022",
+  "Producto": "Producto Prueba 10011",
+  "Importe": 93393,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "b58b353c-61f7-c9c3-93b6-2e7bbf871325",
+  "UUID Cliente": "9319c1dc-c1cb-849b-82e3-99f8ed3b6a75",
+  "Fecha": "02/21/2021",
+  "Fecha Estimada Cierre": "05/20/2021",
+  "Producto": "Producto Prueba 10001",
+  "Importe": 54515,
+  "Estatus": "Caliente"
+ },
+ {
+  "UUID OP": "4348dff8-876c-f52c-6da8-98e495fa09e1",
+  "UUID Cliente": "9f85c15a-492a-565e-b250-7c0c345a0068",
+  "Fecha": "04/22/2021",
+  "Fecha Estimada Cierre": "05/20/2021",
+  "Producto": "Producto Prueba 10006",
+  "Importe": 57469,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "be93a709-1d3f-d532-1a39-84b1467af88a",
+  "UUID Cliente": "54c26cf7-1d48-6e0c-bcd2-2b8de4526a06",
+  "Fecha": "08/09/2022",
+  "Fecha Estimada Cierre": "11/13/2022",
+  "Producto": "Producto Prueba 10010",
+  "Importe": 51507,
+  "Estatus": "Perdida"
+ },
+ {
+  "UUID OP": "33302b94-7a9f-29a6-a483-ff5ba0d03c19",
+  "UUID Cliente": "0d9adcb5-6e8b-d09e-2abe-2bf50931511b",
+  "Fecha": "01/13/2020",
+  "Fecha Estimada Cierre": "04/08/2020",
+  "Producto": "Producto Prueba 10001",
+  "Importe": 20679,
+  "Estatus": "Caliente"
+ },
+ {
+  "UUID OP": "9b19d20d-7887-959d-54b6-806832dcfe6f",
+  "UUID Cliente": "5f17f50a-c1a3-d822-fc4b-b4a0a5eb925d",
+  "Fecha": "12/18/2022",
+  "Fecha Estimada Cierre": "04/16/2023",
+  "Producto": "Producto Prueba 10005",
+  "Importe": 94877,
+  "Estatus": "Aceptada"
+ },
+ {
+  "UUID OP": "994c01e3-474d-d4a8-e2b0-759474a0af77",
+  "UUID Cliente": "939ed84d-9b00-2c25-d2ef-0c0811b4f30c",
+  "Fecha": "02/20/2021",
+  "Fecha Estimada Cierre": "04/18/2021",
+  "Producto": "Producto Prueba 10002",
+  "Importe": 74477,
+  "Estatus": "Perdida"
+ },
+ {
+  "UUID OP": "89e576ac-10b4-9496-a729-66c6b095aa61",
+  "UUID Cliente": "0d9adcb5-6e8b-d09e-2abe-2bf50931511b",
+  "Fecha": "01/15/2020",
+  "Fecha Estimada Cierre": "02/11/2020",
+  "Producto": "Producto Prueba 10001",
+  "Importe": 95095,
+  "Estatus": "Perdida"
+ },
+ {
+  "UUID OP": "eff64488-001c-7943-c5ea-3189ac4de3cd",
+  "UUID Cliente": "88505ba0-eb02-5ac4-d4e8-787eab0514e9",
+  "Fecha": "07/03/2020",
+  "Fecha Estimada Cierre": "09/11/2020",
+  "Producto": "Producto Prueba 10001",
+  "Importe": 25790,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "6594b673-0b6c-c7e7-faae-f50076d7af65",
+  "UUID Cliente": "d95d2588-a054-7404-df2e-4c10d88dfb17",
+  "Fecha": "09/28/2020",
+  "Fecha Estimada Cierre": "11/01/2020",
+  "Producto": "Producto Prueba 10003",
+  "Importe": 34277,
+  "Estatus": "Caliente"
+ },
+ {
+  "UUID OP": "5ce948d5-c116-d584-77a1-83e9c456b458",
+  "UUID Cliente": "12bf10bb-255e-2c66-367b-41a3fdd5d0d0",
+  "Fecha": "09/11/2021",
+  "Fecha Estimada Cierre": "10/12/2021",
+  "Producto": "Producto Prueba 10007",
+  "Importe": 21599,
+  "Estatus": "Perdida"
+ },
+ {
+  "UUID OP": "00aa6e68-019b-1d75-bfd3-20b7ca5e20b8",
+  "UUID Cliente": "958c828c-d825-f130-7e1a-3292031fbc96",
+  "Fecha": "04/27/2022",
+  "Fecha Estimada Cierre": "06/02/2022",
+  "Producto": "Producto Prueba 10004",
+  "Importe": 59092,
+  "Estatus": "Caliente"
+ },
+ {
+  "UUID OP": "f83c6286-1099-a6ec-92ff-ed3904b08dcd",
+  "UUID Cliente": "d95d2588-a054-7404-df2e-4c10d88dfb17",
+  "Fecha": "09/27/2020",
+  "Fecha Estimada Cierre": "01/15/2021",
+  "Producto": "Producto Prueba 10010",
+  "Importe": 67798,
+  "Estatus": "Caliente"
+ },
+ {
+  "UUID OP": "78b7c244-1e7d-ec3c-a514-18ad34b957b1",
+  "UUID Cliente": "8f228bda-36b8-09b0-1d01-5bd753b10162",
+  "Fecha": "08/22/2021",
+  "Fecha Estimada Cierre": "10/18/2021",
+  "Producto": "Producto Prueba 10009",
+  "Importe": 17276,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "ec2ee8a0-889c-fc2b-5a73-774578f2fe8a",
+  "UUID Cliente": "7f2afa6b-a965-c03c-6b99-b1624e4bc092",
+  "Fecha": "02/01/2023",
+  "Fecha Estimada Cierre": "05/25/2023",
+  "Producto": "Producto Prueba 10003",
+  "Importe": 53050,
+  "Estatus": "Caliente"
+ },
+ {
+  "UUID OP": "d6fd1022-ce1e-b7f0-319e-7d9a780c927a",
+  "UUID Cliente": "8f228bda-36b8-09b0-1d01-5bd753b10162",
+  "Fecha": "08/22/2021",
+  "Fecha Estimada Cierre": "12/16/2021",
+  "Producto": "Producto Prueba 10009",
+  "Importe": 16933,
+  "Estatus": "Aceptada"
+ },
+ {
+  "UUID OP": "ec5ae692-b67e-97ea-92f4-245781c798fa",
+  "UUID Cliente": "fc9de619-b89c-043d-d1e4-0a5edc0f9ea2",
+  "Fecha": "07/21/2022",
+  "Fecha Estimada Cierre": "10/25/2022",
+  "Producto": "Producto Prueba 10002",
+  "Importe": 35369,
+  "Estatus": "Caliente"
+ },
+ {
+  "UUID OP": "3d8c8d41-0270-7a8a-a4da-e35ea48266f9",
+  "UUID Cliente": "8de05fc2-d5f4-5c75-a662-a992dd222af4",
+  "Fecha": "02/27/2022",
+  "Fecha Estimada Cierre": "04/15/2022",
+  "Producto": "Producto Prueba 10012",
+  "Importe": 97336,
+  "Estatus": "Caliente"
+ },
+ {
+  "UUID OP": "dbc04809-b5f6-fda1-82ba-5a732c07425c",
+  "UUID Cliente": "7f2afa6b-a965-c03c-6b99-b1624e4bc092",
+  "Fecha": "02/05/2023",
+  "Fecha Estimada Cierre": "03/07/2023",
+  "Producto": "Producto Prueba 10009",
+  "Importe": 94831,
+  "Estatus": "Perdida"
+ },
+ {
+  "UUID OP": "f49a78ab-ed81-0927-6a86-dbf9806fdbb0",
+  "UUID Cliente": "073d867f-8a1d-2f38-19aa-e52853f75be5",
+  "Fecha": "01/26/2020",
+  "Fecha Estimada Cierre": "04/14/2020",
+  "Producto": "Producto Prueba 10009",
+  "Importe": 58070,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "2d5465e6-f31b-71c5-4920-0f42ba728877",
+  "UUID Cliente": "d95d2588-a054-7404-df2e-4c10d88dfb17",
+  "Fecha": "09/28/2020",
+  "Fecha Estimada Cierre": "01/06/2021",
+  "Producto": "Producto Prueba 10004",
+  "Importe": 88575,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "810e5b12-7396-d237-3acf-05c6ab63cafc",
+  "UUID Cliente": "0b3410cb-0d19-9fce-856f-0a480482e21a",
+  "Fecha": "01/17/2022",
+  "Fecha Estimada Cierre": "02/04/2022",
+  "Producto": "Producto Prueba 10012",
+  "Importe": 32171,
+  "Estatus": "Perdida"
+ },
+ {
+  "UUID OP": "15eee628-11a4-e346-75c8-f776f7e8967b",
+  "UUID Cliente": "12bf10bb-255e-2c66-367b-41a3fdd5d0d0",
+  "Fecha": "09/15/2021",
+  "Fecha Estimada Cierre": "10/09/2021",
+  "Producto": "Producto Prueba 10003",
+  "Importe": 60428,
+  "Estatus": "Caliente"
+ },
+ {
+  "UUID OP": "3e3ddf0a-f8bc-240a-27af-eae34fe69b54",
+  "UUID Cliente": "cc8217a1-3f28-9215-dcc7-389b0e88b888",
+  "Fecha": "06/04/2020",
+  "Fecha Estimada Cierre": "07/11/2020",
+  "Producto": "Producto Prueba 10012",
+  "Importe": 24018,
+  "Estatus": "Caliente"
+ },
+ {
+  "UUID OP": "f9eebe57-e368-040c-c387-7c4f372b5948",
+  "UUID Cliente": "958c828c-d825-f130-7e1a-3292031fbc96",
+  "Fecha": "04/28/2022",
+  "Fecha Estimada Cierre": "07/19/2022",
+  "Producto": "Producto Prueba 10010",
+  "Importe": 88513,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "ff58a4df-7f28-f2fd-5206-50038ae0345f",
+  "UUID Cliente": "9319c1dc-c1cb-849b-82e3-99f8ed3b6a75",
+  "Fecha": "02/15/2021",
+  "Fecha Estimada Cierre": "03/06/2021",
+  "Producto": "Producto Prueba 10004",
+  "Importe": 97297,
+  "Estatus": "Perdida"
+ },
+ {
+  "UUID OP": "ae21816b-1e16-7c6f-9a44-b036f727fe60",
+  "UUID Cliente": "bdc822c8-f5aa-188f-fc58-c84feb3e91d9",
+  "Fecha": "05/13/2021",
+  "Fecha Estimada Cierre": "08/23/2021",
+  "Producto": "Producto Prueba 10001",
+  "Importe": 83273,
+  "Estatus": "Caliente"
+ },
+ {
+  "UUID OP": "64a2b668-70f6-8fc5-cc43-5b63996ac529",
+  "UUID Cliente": "a5e42e31-a5b8-1f15-60d8-6dde3c0f05d6",
+  "Fecha": "10/12/2020",
+  "Fecha Estimada Cierre": "12/26/2020",
+  "Producto": "Producto Prueba 10005",
+  "Importe": 23478,
+  "Estatus": "Perdida"
+ },
+ {
+  "UUID OP": "35e563e3-ea3d-2f37-3190-50c1dfb6b6f9",
+  "UUID Cliente": "9f85c15a-492a-565e-b250-7c0c345a0068",
+  "Fecha": "04/20/2021",
+  "Fecha Estimada Cierre": "08/06/2021",
+  "Producto": "Producto Prueba 10008",
+  "Importe": 49121,
+  "Estatus": "Aceptada"
+ },
+ {
+  "UUID OP": "dfc28918-84d1-b6ef-1ac0-c4525b0f0133",
+  "UUID Cliente": "5f17f50a-c1a3-d822-fc4b-b4a0a5eb925d",
+  "Fecha": "12/12/2022",
+  "Fecha Estimada Cierre": "02/26/2023",
+  "Producto": "Producto Prueba 10002",
+  "Importe": 35176,
+  "Estatus": "Caliente"
+ },
+ {
+  "UUID OP": "f6ee55a2-14e6-8039-a657-e75baa12eeb7",
+  "UUID Cliente": "958c828c-d825-f130-7e1a-3292031fbc96",
+  "Fecha": "04/26/2022",
+  "Fecha Estimada Cierre": "05/19/2022",
+  "Producto": "Producto Prueba 10012",
+  "Importe": 34026,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "c50a0afb-b01d-0305-0ec6-7555c07698cb",
+  "UUID Cliente": "0d9adcb5-6e8b-d09e-2abe-2bf50931511b",
+  "Fecha": "01/11/2020",
+  "Fecha Estimada Cierre": "04/29/2020",
+  "Producto": "Producto Prueba 10008",
+  "Importe": 70813,
+  "Estatus": "Caliente"
+ },
+ {
+  "UUID OP": "a55b17a6-59b4-8502-b23e-3340524b7fe1",
+  "UUID Cliente": "0909e9a7-097c-2f71-910c-7698e260dda5",
+  "Fecha": "01/18/2022",
+  "Fecha Estimada Cierre": "02/28/2022",
+  "Producto": "Producto Prueba 10010",
+  "Importe": 91350,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "35262658-4bef-97eb-157e-3229c26f6300",
+  "UUID Cliente": "939ed84d-9b00-2c25-d2ef-0c0811b4f30c",
+  "Fecha": "02/15/2021",
+  "Fecha Estimada Cierre": "04/01/2021",
+  "Producto": "Producto Prueba 10006",
+  "Importe": 11465,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "588b0b68-b82f-a0dc-e15d-e96a515f6e29",
+  "UUID Cliente": "cc8217a1-3f28-9215-dcc7-389b0e88b888",
+  "Fecha": "06/04/2020",
+  "Fecha Estimada Cierre": "08/26/2020",
+  "Producto": "Producto Prueba 10006",
+  "Importe": 24703,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "825b588c-92aa-94a1-a580-4bfd2262935b",
+  "UUID Cliente": "8f228bda-36b8-09b0-1d01-5bd753b10162",
+  "Fecha": "08/18/2021",
+  "Fecha Estimada Cierre": "11/05/2021",
+  "Producto": "Producto Prueba 10006",
+  "Importe": 24631,
+  "Estatus": "Perdida"
+ },
+ {
+  "UUID OP": "d7b2ea6f-175f-9c72-d0bc-e7904bdf60ec",
+  "UUID Cliente": "073d867f-8a1d-2f38-19aa-e52853f75be5",
+  "Fecha": "01/26/2020",
+  "Fecha Estimada Cierre": "03/04/2020",
+  "Producto": "Producto Prueba 10004",
+  "Importe": 65254,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "29b4684a-0650-b78b-f979-08ba5796c3fe",
+  "UUID Cliente": "6a416b41-4531-03a8-2c5d-0a08b3c7bb45",
+  "Fecha": "03/21/2020",
+  "Fecha Estimada Cierre": "05/20/2020",
+  "Producto": "Producto Prueba 10005",
+  "Importe": 20280,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "1218ae4c-8af9-c427-0ec2-bf17cc58bb48",
+  "UUID Cliente": "d95d2588-a054-7404-df2e-4c10d88dfb17",
+  "Fecha": "09/30/2020",
+  "Fecha Estimada Cierre": "12/11/2020",
+  "Producto": "Producto Prueba 10011",
+  "Importe": 36060,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "b9c9daf0-7165-c4eb-151c-141bc8b0a95c",
+  "UUID Cliente": "6a416b41-4531-03a8-2c5d-0a08b3c7bb45",
+  "Fecha": "03/23/2020",
+  "Fecha Estimada Cierre": "06/03/2020",
+  "Producto": "Producto Prueba 10012",
+  "Importe": 93417,
+  "Estatus": "Caliente"
+ },
+ {
+  "UUID OP": "7f9339c7-f5d8-6def-d478-c103775b8a21",
+  "UUID Cliente": "073d867f-8a1d-2f38-19aa-e52853f75be5",
+  "Fecha": "01/24/2020",
+  "Fecha Estimada Cierre": "05/16/2020",
+  "Producto": "Producto Prueba 10008",
+  "Importe": 66745,
+  "Estatus": "Perdida"
+ },
+ {
+  "UUID OP": "cf7ec7f3-ee09-7c99-4e41-7fc060edf0d0",
+  "UUID Cliente": "fc9de619-b89c-043d-d1e4-0a5edc0f9ea2",
+  "Fecha": "07/22/2022",
+  "Fecha Estimada Cierre": "09/30/2022",
+  "Producto": "Producto Prueba 10002",
+  "Importe": 17421,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "38c10a4a-43d1-3066-e33e-a2c518d4859d",
+  "UUID Cliente": "5f17f50a-c1a3-d822-fc4b-b4a0a5eb925d",
+  "Fecha": "12/17/2022",
+  "Fecha Estimada Cierre": "02/06/2023",
+  "Producto": "Producto Prueba 10001",
+  "Importe": 49696,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "c5a2de8f-cb77-d6ed-4758-9e542a78edd3",
+  "UUID Cliente": "958c828c-d825-f130-7e1a-3292031fbc96",
+  "Fecha": "04/27/2022",
+  "Fecha Estimada Cierre": "06/19/2022",
+  "Producto": "Producto Prueba 10007",
+  "Importe": 23101,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "63390c56-9516-08f1-af50-52fc4d083b4e",
+  "UUID Cliente": "f8bdfa5b-a126-ec45-cd42-a64f922d33c0",
+  "Fecha": "04/28/2023",
+  "Fecha Estimada Cierre": "05/20/2023",
+  "Producto": "Producto Prueba 10008",
+  "Importe": 92785,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "cc94a718-f5d0-5242-df54-9455d1d44bc1",
+  "UUID Cliente": "d189326b-7c6c-5014-1a2b-ef61c40f278f",
+  "Fecha": "08/15/2021",
+  "Fecha Estimada Cierre": "10/24/2021",
+  "Producto": "Producto Prueba 10009",
+  "Importe": 28679,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "1e039568-45f4-5f17-b645-9300006213bf",
+  "UUID Cliente": "d95d2588-a054-7404-df2e-4c10d88dfb17",
+  "Fecha": "10/01/2020",
+  "Fecha Estimada Cierre": "01/24/2021",
+  "Producto": "Producto Prueba 10007",
+  "Importe": 65101,
+  "Estatus": "Aceptada"
+ },
+ {
+  "UUID OP": "216ce587-495e-920f-8c60-22762d9c37d9",
+  "UUID Cliente": "614fa2f0-c4ec-303d-876f-be4f302baa60",
+  "Fecha": "08/30/2020",
+  "Fecha Estimada Cierre": "12/17/2020",
+  "Producto": "Producto Prueba 10012",
+  "Importe": 98842,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "b50466dc-389d-de1f-5d0e-6545b58afd3b",
+  "UUID Cliente": "9319c1dc-c1cb-849b-82e3-99f8ed3b6a75",
+  "Fecha": "02/19/2021",
+  "Fecha Estimada Cierre": "04/05/2021",
+  "Producto": "Producto Prueba 10012",
+  "Importe": 79798,
+  "Estatus": "Aceptada"
+ },
+ {
+  "UUID OP": "73c3fce3-a182-648e-f2c7-3f3928b10a99",
+  "UUID Cliente": "2bf7e318-6c4d-6709-7d40-a58bd9ca0440",
+  "Fecha": "12/27/2021",
+  "Fecha Estimada Cierre": "01/26/2022",
+  "Producto": "Producto Prueba 10002",
+  "Importe": 91577,
+  "Estatus": "Perdida"
+ },
+ {
+  "UUID OP": "6ea3b624-876c-e405-1966-94d883f89dc2",
+  "UUID Cliente": "2c6f6c3e-1192-232c-6b70-9457d27d6736",
+  "Fecha": "04/01/2022",
+  "Fecha Estimada Cierre": "05/09/2022",
+  "Producto": "Producto Prueba 10011",
+  "Importe": 27429,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "28dd7d07-ad1d-e474-4e52-e0da74daea24",
+  "UUID Cliente": "fc9de619-b89c-043d-d1e4-0a5edc0f9ea2",
+  "Fecha": "07/27/2022",
+  "Fecha Estimada Cierre": "09/28/2022",
+  "Producto": "Producto Prueba 10001",
+  "Importe": 50995,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "8bf8391b-8c2b-fb47-1a90-d4e2f8ffe3b7",
+  "UUID Cliente": "12bf10bb-255e-2c66-367b-41a3fdd5d0d0",
+  "Fecha": "09/15/2021",
+  "Fecha Estimada Cierre": "12/13/2021",
+  "Producto": "Producto Prueba 10007",
+  "Importe": 98733,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "d3ab9843-d5e6-6f15-e21e-5aa7b479cd03",
+  "UUID Cliente": "d95d2588-a054-7404-df2e-4c10d88dfb17",
+  "Fecha": "09/30/2020",
+  "Fecha Estimada Cierre": "11/20/2020",
+  "Producto": "Producto Prueba 10002",
+  "Importe": 34377,
+  "Estatus": "Perdida"
+ },
+ {
+  "UUID OP": "2182201e-12e4-7272-2f9f-878e052ded56",
+  "UUID Cliente": "958c828c-d825-f130-7e1a-3292031fbc96",
+  "Fecha": "04/30/2022",
+  "Fecha Estimada Cierre": "05/18/2022",
+  "Producto": "Producto Prueba 10005",
+  "Importe": 56085,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "dd685e89-b445-cbf2-ef4f-93186579e01b",
+  "UUID Cliente": "88505ba0-eb02-5ac4-d4e8-787eab0514e9",
+  "Fecha": "07/07/2020",
+  "Fecha Estimada Cierre": "09/17/2020",
+  "Producto": "Producto Prueba 10009",
+  "Importe": 50874,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "241ca491-e31d-60ae-a5b3-246515a84865",
+  "UUID Cliente": "54c26cf7-1d48-6e0c-bcd2-2b8de4526a06",
+  "Fecha": "08/14/2022",
+  "Fecha Estimada Cierre": "11/14/2022",
+  "Producto": "Producto Prueba 10012",
+  "Importe": 25126,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "8cdc6967-1329-c1e9-0add-5419805616a1",
+  "UUID Cliente": "d95d2588-a054-7404-df2e-4c10d88dfb17",
+  "Fecha": "10/01/2020",
+  "Fecha Estimada Cierre": "12/25/2020",
+  "Producto": "Producto Prueba 10005",
+  "Importe": 25314,
+  "Estatus": "Cerrada"
+ },
+ {
+  "UUID OP": "d607ebb6-5a27-c6f2-451f-347b041b88c1",
+  "UUID Cliente": "88505ba0-eb02-5ac4-d4e8-787eab0514e9",
+  "Fecha": "07/01/2020",
+  "Fecha Estimada Cierre": "08/30/2020",
+  "Producto": "Producto Prueba 10004",
+  "Importe": 77560,
+  "Estatus": "Perdida"
+ },
+ {
+  "UUID OP": "f8d7fd2a-6c43-85ba-bff9-cadede41d662",
+  "UUID Cliente": "88505ba0-eb02-5ac4-d4e8-787eab0514e9",
+  "Fecha": "07/06/2020",
+  "Fecha Estimada Cierre": "07/27/2020",
+  "Producto": "Producto Prueba 10011",
+  "Importe": 28665,
+  "Estatus": "Fria"
+ },
+ {
+  "UUID OP": "e9950471-329b-e368-61e8-1e2a1b6a8903",
+  "UUID Cliente": "2c6f6c3e-1192-232c-6b70-9457d27d6736",
+  "Fecha": "04/03/2022",
+  "Fecha Estimada Cierre": "06/26/2022",
+  "Producto": "Producto Prueba 10006",
+  "Importe": 62465,
+  "Estatus": "Aceptada"
+ },
+ {
+  "UUID OP": "3502724c-a799-902b-998a-64797cfe3c2d",
+  "UUID Cliente": "073d867f-8a1d-2f38-19aa-e52853f75be5",
+  "Fecha": "01/27/2020",
+  "Fecha Estimada Cierre": "04/26/2020",
+  "Producto": "Producto Prueba 10001",
+  "Importe": 84092,
+  "Estatus": "Perdida"
+ },
+ {
+  "UUID OP": "25c174f8-33bc-0c33-493b-d654c849f20e",
+  "UUID Cliente": "12bf10bb-255e-2c66-367b-41a3fdd5d0d0",
+  "Fecha": "09/14/2021",
+  "Fecha Estimada Cierre": "10/29/2021",
+  "Producto": "Producto Prueba 10007",
+  "Importe": 40643,
+  "Estatus": "Caliente"
+ },
+ {
+  "UUID OP": "e3fbca6e-aa0b-c474-b7cb-450ba7a11535",
+  "UUID Cliente": "614fa2f0-c4ec-303d-876f-be4f302baa60",
+  "Fecha": "08/29/2020",
+  "Fecha Estimada Cierre": "10/25/2020",
+  "Producto": "Producto Prueba 10001",
+  "Importe": 57131,
+  "Estatus": "Aceptada"
+ },
+ {
+  "UUID OP": "768c731a-429c-3f30-ef97-3d51e54fb8d6",
+  "UUID Cliente": "6a416b41-4531-03a8-2c5d-0a08b3c7bb45",
+  "Fecha": "03/22/2020",
+  "Fecha Estimada Cierre": "06/09/2020",
+  "Producto": "Producto Prueba 10003",
+  "Importe": 54663,
+  "Estatus": "Aceptada"
+ }
+],
+"Etapas":[
+ {
+  "Cliente": "b7829e8a-d9fa-3f7c-8cab-34af1bb962ed",
+  "Fecha reg": "03/06/2022",
+  "Status Actual": "Cliente",
+  "Fecha Contacto": "03/06/2022",
+  "Fecha Prospecto No Int": "06/25/2023",
+  "Fecha Prosp": "06/30/2023",
+  "Fecha Cliente": "06/30/2023"
+ },
+ {
+  "Cliente": "70b61a6b-3dac-8798-bde9-6ff10ac538f0",
+  "Fecha reg": "09/03/2021",
+  "Status Actual": "Prospecto interesado",
+  "Fecha Contacto": "09/03/2021",
+  "Fecha Prospecto No Int": "07/25/2022",
+  "Fecha Prosp": "08/24/2023",
+  "Fecha Cliente": "01/00/1900"
+ },
+ {
+  "Cliente": "944e03e8-b71e-d37c-7c60-1fbbb1d925dd",
+  "Fecha reg": "03/05/2021",
+  "Status Actual": "Prospecto interesado",
+  "Fecha Contacto": "03/05/2021",
+  "Fecha Prospecto No Int": "06/12/2024",
+  "Fecha Prosp": "07/13/2023",
+  "Fecha Cliente": "01/00/1900"
+ },
+ {
+  "Cliente": "c97612a1-3e10-2fcc-302e-b60896fb5bae",
+  "Fecha reg": "12/03/2022",
+  "Status Actual": "Cliente",
+  "Fecha Contacto": "12/03/2022",
+  "Fecha Prospecto No Int": "06/20/2022",
+  "Fecha Prosp": "09/15/2023",
+  "Fecha Cliente": "07/15/2023"
+ },
+ {
+  "Cliente": "a61f0e4b-2077-b249-30bf-9b28e36a4c96",
+  "Fecha reg": "11/23/2022",
+  "Status Actual": "Cliente",
+  "Fecha Contacto": "11/23/2022",
+  "Fecha Prospecto No Int": "06/16/2022",
+  "Fecha Prosp": "07/07/2023",
+  "Fecha Cliente": "08/19/2023"
+ },
+ {
+  "Cliente": "1cea526e-13bd-83a5-1468-bdccd3417291",
+  "Fecha reg": "03/25/2022",
+  "Status Actual": "Cliente",
+  "Fecha Contacto": "03/25/2022",
+  "Fecha Prospecto No Int": "06/23/2022",
+  "Fecha Prosp": "04/17/2024",
+  "Fecha Cliente": "07/23/2023"
+ },
+ {
+  "Cliente": "2f81b338-6acc-283c-ed0c-ad1c9447381c",
+  "Fecha reg": "05/19/2020",
+  "Status Actual": "Cliente",
+  "Fecha Contacto": "05/19/2020",
+  "Fecha Prospecto No Int": "08/27/2023",
+  "Fecha Prosp": "12/22/2024",
+  "Fecha Cliente": "07/25/2023"
+ },
+ {
+  "Cliente": "b7a94bb2-880f-8e06-a817-05921a38ef60",
+  "Fecha reg": "05/14/2021",
+  "Status Actual": "Prospecto poco interesado",
+  "Fecha Contacto": "05/14/2021",
+  "Fecha Prospecto No Int": "09/07/2023",
+  "Fecha Prosp": "09/19/2023",
+  "Fecha Cliente": "09/08/2023"
+ },
+ {
+  "Cliente": "a441474a-dea6-2560-7598-7ea326493dbc",
+  "Fecha reg": "08/08/2022",
+  "Status Actual": "Prospecto interesado",
+  "Fecha Contacto": "08/08/2022",
+  "Fecha Prospecto No Int": "07/22/2022",
+  "Fecha Prosp": "12/03/2023",
+  "Fecha Cliente": "01/00/1900"
+ },
+ {
+  "Cliente": "ac069b26-0d65-846f-5833-e8a831c3a89c",
+  "Fecha reg": "01/31/2020",
+  "Status Actual": "Cliente",
+  "Fecha Contacto": "01/31/2020",
+  "Fecha Prospecto No Int": "06/03/2022",
+  "Fecha Prosp": "01/30/2024",
+  "Fecha Cliente": "08/29/2023"
+ },
+ {
+  "Cliente": "0e845b66-72fc-bb77-36ff-0ed03be580ab",
+  "Fecha reg": "09/28/2020",
+  "Status Actual": "Prospecto interesado",
+  "Fecha Contacto": "09/28/2020",
+  "Fecha Prospecto No Int": "05/14/2024",
+  "Fecha Prosp": "09/10/2023",
+  "Fecha Cliente": "01/00/1900"
+ },
+ {
+  "Cliente": "c7531283-4f5c-4462-cdb0-f9814cf34305",
+  "Fecha reg": "12/19/2021",
+  "Status Actual": "Prospecto interesado",
+  "Fecha Contacto": "12/19/2021",
+  "Fecha Prospecto No Int": "07/04/2023",
+  "Fecha Prosp": "08/17/2023",
+  "Fecha Cliente": "01/00/1900"
+ },
+ {
+  "Cliente": "c681a958-5315-6888-8d10-dfccaffd3581",
+  "Fecha reg": "04/27/2021",
+  "Status Actual": "Cliente",
+  "Fecha Contacto": "04/27/2021",
+  "Fecha Prospecto No Int": "10/31/2023",
+  "Fecha Prosp": "11/02/2023",
+  "Fecha Cliente": "07/15/2023"
+ },
+ {
+  "Cliente": "98a1e852-87fc-b894-94d8-5000acdfbb04",
+  "Fecha reg": "05/13/2021",
+  "Status Actual": "Prospecto interesado",
+  "Fecha Contacto": "05/13/2021",
+  "Fecha Prospecto No Int": "06/16/2023",
+  "Fecha Prosp": "07/10/2023",
+  "Fecha Cliente": "01/00/1900"
+ },
+ {
+  "Cliente": "2322bd50-b757-471f-1073-4ca0c78cbf1f",
+  "Fecha reg": "03/03/2021",
+  "Status Actual": "Prospecto poco interesado",
+  "Fecha Contacto": "03/03/2021",
+  "Fecha Prospecto No Int": "02/02/2024",
+  "Fecha Prosp": "08/16/2023",
+  "Fecha Cliente": "07/24/2023"
+ },
+ {
+  "Cliente": "6407e762-88ce-482d-20fd-ac7bb89fd6b1",
+  "Fecha reg": "10/28/2021",
+  "Status Actual": "Prospecto poco interesado",
+  "Fecha Contacto": "10/28/2021",
+  "Fecha Prospecto No Int": "04/13/2022",
+  "Fecha Prosp": "03/31/2024",
+  "Fecha Cliente": "10/12/2023"
+ },
+ {
+  "Cliente": "8ba0be5e-3081-0e5c-6d57-2b6a799ee348",
+  "Fecha reg": "11/16/2021",
+  "Status Actual": "Contacto no interesado",
+  "Fecha Contacto": "11/16/2021",
+  "Fecha Prospecto No Int": "10/20/2022",
+  "Fecha Prosp": "08/06/2023",
+  "Fecha Cliente": "05/09/2024"
+ },
+ {
+  "Cliente": "87c46b8f-fa42-643d-961d-b60422a34fbd",
+  "Fecha reg": "04/24/2021",
+  "Status Actual": "Cliente",
+  "Fecha Contacto": "04/24/2021",
+  "Fecha Prospecto No Int": "03/20/2022",
+  "Fecha Prosp": "05/28/2024",
+  "Fecha Cliente": "09/18/2023"
+ },
+ {
+  "Cliente": "4edd613e-57fd-fb29-a78f-543495aa04f7",
+  "Fecha reg": "02/18/2022",
+  "Status Actual": "Contacto no interesado",
+  "Fecha Contacto": "02/18/2022",
+  "Fecha Prospecto No Int": "03/20/2023",
+  "Fecha Prosp": "08/20/2023",
+  "Fecha Cliente": "08/15/2023"
+ },
+ {
+  "Cliente": "87bd9c87-44be-d5b9-7acc-ef59cfd4ddd6",
+  "Fecha reg": "01/31/2022",
+  "Status Actual": "Contacto no interesado",
+  "Fecha Contacto": "01/31/2022",
+  "Fecha Prospecto No Int": "07/26/2023",
+  "Fecha Prosp": "06/26/2023",
+  "Fecha Cliente": "07/07/2023"
+ },
+ {
+  "Cliente": "f37fa8fd-1fd4-f8ac-9559-94101155c0da",
+  "Fecha reg": "12/19/2021",
+  "Status Actual": "Prospecto interesado",
+  "Fecha Contacto": "12/19/2021",
+  "Fecha Prospecto No Int": "02/09/2023",
+  "Fecha Prosp": "11/18/2023",
+  "Fecha Cliente": "01/00/1900"
+ },
+ {
+  "Cliente": "007962c7-d426-a6f8-a29a-1792bdb9a777",
+  "Fecha reg": "04/05/2021",
+  "Status Actual": "Contacto no interesado",
+  "Fecha Contacto": "04/05/2021",
+  "Fecha Prospecto No Int": "12/19/2022",
+  "Fecha Prosp": "11/18/2024",
+  "Fecha Cliente": "07/14/2023"
+ },
+ {
+  "Cliente": "323deb8d-4d98-12c0-5b05-53fec6822c39",
+  "Fecha reg": "01/17/2023",
+  "Status Actual": "Prospecto poco interesado",
+  "Fecha Contacto": "01/17/2023",
+  "Fecha Prospecto No Int": "03/19/2022",
+  "Fecha Prosp": "10/18/2023",
+  "Fecha Cliente": "07/21/2023"
+ },
+ {
+  "Cliente": "9ac9e12d-c8e5-20d0-366e-d9839719abd8",
+  "Fecha reg": "12/21/2020",
+  "Status Actual": "Prospecto interesado",
+  "Fecha Contacto": "12/21/2020",
+  "Fecha Prospecto No Int": "09/10/2022",
+  "Fecha Prosp": "07/12/2023",
+  "Fecha Cliente": "01/00/1900"
+ },
+ {
+  "Cliente": "62db9942-e793-be19-055b-9bf99bdd4ab4",
+  "Fecha reg": "11/16/2020",
+  "Status Actual": "Prospecto interesado",
+  "Fecha Contacto": "11/16/2020",
+  "Fecha Prospecto No Int": "09/02/2023",
+  "Fecha Prosp": "06/07/2024",
+  "Fecha Cliente": "01/00/1900"
+ },
+ {
+  "Cliente": "af239bc5-5894-882f-4a6c-ea557d4e0a80",
+  "Fecha reg": "04/01/2020",
+  "Status Actual": "Contacto no interesado",
+  "Fecha Contacto": "04/01/2020",
+  "Fecha Prospecto No Int": "12/13/2023",
+  "Fecha Prosp": "08/05/2023",
+  "Fecha Cliente": "08/14/2023"
+ },
+ {
+  "Cliente": "a9743783-2423-ef48-8652-14e4bc2ed949",
+  "Fecha reg": "03/01/2022",
+  "Status Actual": "Contacto no interesado",
+  "Fecha Contacto": "03/01/2022",
+  "Fecha Prospecto No Int": "09/16/2022",
+  "Fecha Prosp": "10/08/2023",
+  "Fecha Cliente": "11/26/2023"
+ },
+ {
+  "Cliente": "f227d264-dff4-60b8-0a8b-b7d6e839f754",
+  "Fecha reg": "08/15/2022",
+  "Status Actual": "Cliente",
+  "Fecha Contacto": "08/15/2022",
+  "Fecha Prospecto No Int": "04/14/2022",
+  "Fecha Prosp": "09/14/2023",
+  "Fecha Cliente": "09/12/2023"
+ },
+ {
+  "Cliente": "a0875fab-8800-dc76-9026-3b3fc87e53ad",
+  "Fecha reg": "02/24/2020",
+  "Status Actual": "Prospecto interesado",
+  "Fecha Contacto": "02/24/2020",
+  "Fecha Prospecto No Int": "07/12/2023",
+  "Fecha Prosp": "09/07/2024",
+  "Fecha Cliente": "01/00/1900"
+ }
+]
+}

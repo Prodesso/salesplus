@@ -250,8 +250,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Init FullCalendar
     // ------------------------------------------------
-    let calendar = new Calendar(calendarEl, {
+    if(calendarEl){
+          let calendar = new Calendar(calendarEl, {
       initialView: 'dayGridMonth',
+      locale:'es',
       events: fetchEvents,
       plugins: [dayGridPlugin, interactionPlugin, listPlugin, timegridPlugin],
       editable: true,
@@ -267,6 +269,13 @@ document.addEventListener('DOMContentLoaded', function () {
         start: 'sidebarToggle, prev,next, title',
         end: 'dayGridMonth,timeGridWeek,timeGridDay,listMonth'
       },
+      buttonText:{
+  today:    'Hoy',
+  month:    'Mes',
+  week:     'Semana',
+  day:      'Día',
+  list:     'Lista'
+},
       direction: direction,
       initialDate: new Date(),
       navLinks: true, // can click day/week names to navigate views
@@ -282,9 +291,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // For new event set offcanvas title text: Add Event
         if (offcanvasTitle) {
-          offcanvasTitle.innerHTML = 'Add Event';
+          offcanvasTitle.innerHTML = 'Agregar';
         }
-        btnSubmit.innerHTML = 'Add';
+        btnSubmit.innerHTML = '+';
         btnSubmit.classList.remove('btn-update-event');
         btnSubmit.classList.add('btn-add-event');
         btnDeleteEvent.classList.add('d-none');
@@ -304,7 +313,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Render calendar
     calendar.render();
-    // Modify sidebar toggler
+          // Modify sidebar toggler
     modifyToggler();
 
     const eventForm = document.getElementById('eventForm');
@@ -313,21 +322,21 @@ document.addEventListener('DOMContentLoaded', function () {
         eventTitle: {
           validators: {
             notEmpty: {
-              message: 'Please enter event title '
+              message: 'Agrega un Titulo '
             }
           }
         },
         eventStartDate: {
           validators: {
             notEmpty: {
-              message: 'Please enter start date '
+              message: 'Agrega Fecha Inicio '
             }
           }
         },
         eventEndDate: {
           validators: {
             notEmpty: {
-              message: 'Please enter end date '
+              message: 'Agrega Fecha Fin '
             }
           }
         }
@@ -567,5 +576,8 @@ document.addEventListener('DOMContentLoaded', function () {
       appCalendarSidebar.classList.remove('show');
       appOverlay.classList.remove('show');
     });
+    }
+
+
   })();
 });

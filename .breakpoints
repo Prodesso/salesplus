@@ -1,0 +1,20 @@
+{
+  "files": {
+    "html/clientes.html": [
+      {
+        "id": "e74cbcd3-5329-4cc4-9169-83c150285692",
+        "line": 1,
+        "version": 1495,
+        "index": 0
+      }
+    ],
+    "html/pages/dashboards-crm.html": [
+      {
+        "id": "692b1ffe-0bd0-44c0-b10e-a4d2eddd72c0",
+        "line": 2631,
+        "version": 1,
+        "index": 136665
+      }
+    ]
+  }
+}

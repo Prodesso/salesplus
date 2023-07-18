@@ -4,11 +4,11 @@
 
 'use strict';
 
-$(function () {
+$(function() {
   var dt_scrollable_table = $('.dt-scrollableTable'),
     dt_fixedheader_table = $('.dt-fixedheader'),
     dt_fixedcolumns_table = $('.dt-fixedcolumns'),
-    dt_select_table = $('.dt-select-table');
+
 
   // Scrollable
   // --------------------------------------------------------------------
@@ -32,7 +32,7 @@ $(function () {
         {
           // Label
           targets: -2,
-          render: function (data, type, full, meta) {
+          render: function(data, type, full, meta) {
             var $status_number = full['status'];
             var $status = {
               1: { title: 'Current', class: 'bg-label-primary' },
@@ -55,7 +55,7 @@ $(function () {
           title: 'Actions',
           searchable: false,
           orderable: false,
-          render: function (data, type, full, meta) {
+          render: function(data, type, full, meta) {
             return (
               '<div class="d-inline-block">' +
               '<a href="javascript:;" class="btn btn-sm btn-icon dropdown-toggle hide-arrow" data-bs-toggle="dropdown"><i class="bx bx-dots-vertical-rounded"></i></a>' +
@@ -101,7 +101,7 @@ $(function () {
           orderable: false,
           targets: 0,
           responsivePriority: 3,
-          render: function (data, type, full, meta) {
+          render: function(data, type, full, meta) {
             return '';
           }
         },
@@ -109,7 +109,7 @@ $(function () {
           // For Checkboxes
           targets: 1,
           orderable: false,
-          render: function () {
+          render: function() {
             return '<input type="checkbox" class="dt-checkboxes form-check-input">';
           },
           checkboxes: {
@@ -124,7 +124,7 @@ $(function () {
         {
           // Avatar image/badge, Name and post
           targets: 3,
-          render: function (data, type, full, meta) {
+          render: function(data, type, full, meta) {
             var $user_img = full['avatar'],
               $name = full['full_name'],
               $post = full['post'];
@@ -175,7 +175,7 @@ $(function () {
         {
           // Label
           targets: -2,
-          render: function (data, type, full, meta) {
+          render: function(data, type, full, meta) {
             // var $rand_num = Math.floor(Math.random() * 5) + 1;
             var $status_number = full['status'];
             var $status = {
@@ -198,7 +198,7 @@ $(function () {
           targets: -1,
           title: 'Actions',
           orderable: false,
-          render: function (data, type, full, meta) {
+          render: function(data, type, full, meta) {
             return (
               '<div class="d-inline-block">' +
               '<a href="javascript:;" class="btn btn-sm btn-icon dropdown-toggle hide-arrow" data-bs-toggle="dropdown"><i class="bx bx-dots-vertical-rounded"></i></a>' +
@@ -221,28 +221,28 @@ $(function () {
       responsive: {
         details: {
           display: $.fn.dataTable.Responsive.display.modal({
-            header: function (row) {
+            header: function(row) {
               var data = row.data();
               return 'Details of ' + data['full_name'];
             }
           }),
           type: 'column',
-          renderer: function (api, rowIdx, columns) {
-            var data = $.map(columns, function (col, i) {
+          renderer: function(api, rowIdx, columns) {
+            var data = $.map(columns, function(col, i) {
               return col.title !== '' // ? Do not show row in modal popup if title is blank (for check box)
                 ? '<tr data-dt-row="' +
-                    col.rowIndex +
-                    '" data-dt-column="' +
-                    col.columnIndex +
-                    '">' +
-                    '<td>' +
-                    col.title +
-                    ':' +
-                    '</td> ' +
-                    '<td>' +
-                    col.data +
-                    '</td>' +
-                    '</tr>'
+                col.rowIndex +
+                '" data-dt-column="' +
+                col.columnIndex +
+                '">' +
+                '<td>' +
+                col.title +
+                ':' +
+                '</td> ' +
+                '<td>' +
+                col.data +
+                '</td>' +
+                '</tr>'
                 : '';
             }).join('');
 
@@ -282,7 +282,7 @@ $(function () {
         {
           // Label
           targets: -2,
-          render: function (data, type, full, meta) {
+          render: function(data, type, full, meta) {
             var $status_number = full['status'];
             var $status = {
               1: { title: 'Current', class: 'bg-label-primary' },
@@ -305,7 +305,7 @@ $(function () {
           title: 'Actions',
           searchable: false,
           orderable: false,
-          render: function (data, type, full, meta) {
+          render: function(data, type, full, meta) {
             return (
               '<div class="d-inline-block">' +
               '<a href="javascript:;" class="btn btn-sm btn-icon dropdown-toggle hide-arrow" data-bs-toggle="dropdown"><i class="bx bx-dots-vertical-rounded"></i></a>' +
@@ -335,62 +335,6 @@ $(function () {
   // Select
   // --------------------------------------------------------------------
 
-  if (dt_select_table.length) {
-    var dt_select = dt_select_table.DataTable({
-      ajax: assetsPath + 'json/table-datatable.json',
-      columns: [
-        { data: 'id' },
-        { data: 'full_name' },
-        { data: 'post' },
-        { data: 'email' },
-        { data: 'city' },
-        { data: 'start_date' },
-        { data: 'salary' },
-        { data: 'status' }
-      ],
-      columnDefs: [
-        {
-          // For Checkboxes
-          targets: 0,
-          searchable: false,
-          orderable: false,
-          render: function () {
-            return '<input type="checkbox" class="dt-checkboxes form-check-input">';
-          },
-          checkboxes: {
-            selectRow: true,
-            selectAllRender: '<input type="checkbox" class="form-check-input">'
-          }
-        },
-        {
-          // Label
-          targets: -1,
-          render: function (data, type, full, meta) {
-            var $status_number = full['status'];
-            var $status = {
-              1: { title: 'Current', class: 'bg-label-primary' },
-              2: { title: 'Professional', class: ' bg-label-success' },
-              3: { title: 'Rejected', class: ' bg-label-danger' },
-              4: { title: 'Resigned', class: ' bg-label-warning' },
-              5: { title: 'Applied', class: ' bg-label-info' }
-            };
-            if (typeof $status[$status_number] === 'undefined') {
-              return data;
-            }
-            return (
-              '<span class="badge ' + $status[$status_number].class + '">' + $status[$status_number].title + '</span>'
-            );
-          }
-        }
-      ],
-      order: [[1, 'desc']],
-      dom: '<"row"<"col-sm-12 col-md-6"l><"col-sm-12 col-md-6 d-flex justify-content-center justify-content-md-end"f>>t<"row"<"col-sm-12 col-md-6"i><"col-sm-12 col-md-6"p>>',
-      select: {
-        // Select style
-        style: 'multi'
-      }
-    });
-  }
 
   // Filter form control to default size
   // ? setTimeout used for multilingual table initialization

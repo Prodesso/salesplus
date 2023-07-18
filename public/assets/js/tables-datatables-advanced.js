@@ -4,11 +4,11 @@
 
 'use strict';
 
-$(function () {
+$(function() {
   var dt_ajax_table = $('.datatables-ajax'),
     dt_filter_table = $('.dt-column-search'),
     dt_adv_filter_table = $('.dt-advanced-search'),
-    dt_responsive_table = $('.dt-responsive'),
+    dt_cliente_table = $('.dt-responsive'),
     startDateEle = $('.start_date'),
     endDateEle = $('.end_date');
 
@@ -27,7 +27,7 @@ $(function () {
       locale: {
         format: dateFormat
       },
-      onClose: function (selectedDates, dateStr, instance) {
+      onClose: function(selectedDates, dateStr, instance) {
         var startDate = '',
           endDate = new Date();
         if (selectedDates[0] != undefined) {
@@ -62,9 +62,9 @@ $(function () {
   // Advance filter function
   // We pass the column location, the start date, and the end date
   $.fn.dataTableExt.afnFiltering.length = 0;
-  var filterByDate = function (column, startDate, endDate) {
+  var filterByDate = function(column, startDate, endDate) {
     // Custom filter syntax requires pushing the new filter to the global filter array
-    $.fn.dataTableExt.afnFiltering.push(function (oSettings, aData, iDataIndex) {
+    $.fn.dataTableExt.afnFiltering.push(function(oSettings, aData, iDataIndex) {
       var rowDate = normalizeDate(aData[column]),
         start = normalizeDate(startDate),
         end = normalizeDate(endDate);
@@ -83,7 +83,7 @@ $(function () {
   };
 
   // converts date strings to a Date object, then normalized into a YYYYMMMDD format (ex: 20131220). Makes comparing dates easier. ex: 20131220 > 20121220
-  var normalizeDate = function (dateString) {
+  var normalizeDate = function(dateString) {
     var date = new Date(dateString);
     var normalized =
       date.getFullYear() + '' + ('0' + (date.getMonth() + 1)).slice(-2) + '' + ('0' + date.getDate()).slice(-2);
@@ -108,11 +108,11 @@ $(function () {
   if (dt_filter_table.length) {
     // Setup - add a text input to each footer cell
     $('.dt-column-search thead tr').clone(true).appendTo('.dt-column-search thead');
-    $('.dt-column-search thead tr:eq(1) th').each(function (i) {
+    $('.dt-column-search thead tr:eq(1) th').each(function(i) {
       var title = $(this).text();
       $(this).html('<input type="text" class="form-control" placeholder="Search ' + title + '" />');
 
-      $('input', this).on('keyup change', function () {
+      $('input', this).on('keyup change', function() {
         if (dt_filter.column(i).search() !== this.value) {
           dt_filter.column(i).search(this.value).draw();
         }
@@ -157,7 +157,7 @@ $(function () {
           className: 'control',
           orderable: false,
           targets: 0,
-          render: function (data, type, full, meta) {
+          render: function(data, type, full, meta) {
             return '';
           }
         }
@@ -166,28 +166,28 @@ $(function () {
       responsive: {
         details: {
           display: $.fn.dataTable.Responsive.display.modal({
-            header: function (row) {
+            header: function(row) {
               var data = row.data();
               return 'Details of ' + data['full_name'];
             }
           }),
           type: 'column',
-          renderer: function (api, rowIdx, columns) {
-            var data = $.map(columns, function (col, i) {
+          renderer: function(api, rowIdx, columns) {
+            var data = $.map(columns, function(col, i) {
               return col.title !== '' // ? Do not show row in modal popup if title is blank (for check box)
                 ? '<tr data-dt-row="' +
-                    col.rowIndex +
-                    '" data-dt-column="' +
-                    col.columnIndex +
-                    '">' +
-                    '<td>' +
-                    col.title +
-                    ':' +
-                    '</td> ' +
-                    '<td>' +
-                    col.data +
-                    '</td>' +
-                    '</tr>'
+                col.rowIndex +
+                '" data-dt-column="' +
+                col.columnIndex +
+                '">' +
+                '<td>' +
+                col.title +
+                ':' +
+                '</td> ' +
+                '<td>' +
+                col.data +
+                '</td>' +
+                '</tr>'
                 : '';
             }).join('');
 
@@ -199,98 +199,170 @@ $(function () {
   }
 
   // on key up from input field
-  $('input.dt-input').on('keyup', function () {
+  $('input.dt-input').on('keyup', function() {
     filterColumn($(this).attr('data-column'), $(this).val());
   });
 
   // Responsive Table
   // --------------------------------------------------------------------
 
-  if (dt_responsive_table.length) {
-    var dt_responsive = dt_responsive_table.DataTable({
-      ajax: assetsPath + 'json/table-datatable.json',
-      columns: [
-        { data: '' },
-        { data: 'full_name' },
-        { data: 'email' },
-        { data: 'post' },
-        { data: 'city' },
-        { data: 'start_date' },
-        { data: 'salary' },
-        { data: 'age' },
-        { data: 'experience' },
-        { data: 'status' }
-      ],
-      columnDefs: [
-        {
-          className: 'control',
-          orderable: false,
-          targets: 0,
-          searchable: false,
-          render: function (data, type, full, meta) {
-            return '';
-          }
-        },
-        {
-          // Label
-          targets: -1,
-          render: function (data, type, full, meta) {
-            var $status_number = full['status'];
-            var $status = {
-              1: { title: 'Current', class: 'bg-label-primary' },
-              2: { title: 'Professional', class: ' bg-label-success' },
-              3: { title: 'Rejected', class: ' bg-label-danger' },
-              4: { title: 'Resigned', class: ' bg-label-warning' },
-              5: { title: 'Applied', class: ' bg-label-info' }
-            };
-            if (typeof $status[$status_number] === 'undefined') {
-              return data;
-            }
-            return (
-              '<span class="badge rounded-pill ' +
-              $status[$status_number].class +
-              '">' +
-              $status[$status_number].title +
-              '</span>'
-            );
-          }
-        }
-      ],
-      // scrollX: true,
-      destroy: true,
-      dom: '<"row"<"col-sm-12 col-md-6"l><"col-sm-12 col-md-6 d-flex justify-content-center justify-content-md-end"f>>t<"row"<"col-sm-12 col-md-6"i><"col-sm-12 col-md-6"p>>',
+  if (dt_cliente_table.length) {
+    var dt_responsive = dt_cliente_table.DataTable({
       responsive: {
         details: {
           display: $.fn.dataTable.Responsive.display.modal({
-            header: function (row) {
+            header: function(row) {
               var data = row.data();
-              return 'Details of ' + data['full_name'];
+              return 'Detalles';
             }
           }),
           type: 'column',
-          renderer: function (api, rowIdx, columns) {
-            var data = $.map(columns, function (col, i) {
-              return col.title !== '' // ? Do not show row in modal popup if title is blank (for check box)
+          renderer: function(api, rowIdx, columns) {
+            var data = $.map(columns, function(col, i) {
+              return col.title !== 'x' // ? Do not show row in modal popup if title is blank (for check box)
                 ? '<tr data-dt-row="' +
-                    col.rowIndex +
-                    '" data-dt-column="' +
-                    col.columnIndex +
-                    '">' +
-                    '<td>' +
-                    col.title +
-                    ':' +
-                    '</td> ' +
-                    '<td>' +
-                    col.data +
-                    '</td>' +
-                    '</tr>'
+                col.rowIndex +
+                '" data-dt-column="' +
+                col.columnIndex +
+                '">' +
+                '<td>' +
+                col.title +
+                ':' +
+                '</td> ' +
+                '<td>' +
+                col.data +
+                '</td>' +
+                '</tr>'
                 : '';
             }).join('');
 
             return data ? $('<table class="table"/><tbody />').append(data) : false;
           }
         }
-      }
+      },
+      dom: '<"card-header flex-column flex-md-row"<"head-label text-center"><"dt-action-buttons text-end pt-3 pt-md-0"B>><"row"<"col-sm-12 col-md-6"l><"col-sm-12         col-md-6 d-flex justify-content-center justify-content-md-end"f>>t<"row"<"col-sm-12 col-md-6"i><"col-sm-12 col-md-6"p>>',
+      buttons: [
+        {
+          extend: 'collection',
+          className: 'btn btn-label-primary dropdown-toggle me-2',
+          text: '<i class="bx bx-export me-sm-1"></i> <span class="d-none d-sm-inline-block">Exportar</span>',
+          buttons: [
+            {
+              extend: 'print',
+              text: '<i class="bx bx-printer me-1" ></i>Print',
+              className: 'dropdown-item',
+              exportOptions: {
+                columns: [3, 4, 5, 6, 7],
+                // prevent avatar to be display
+                format: {
+                  body: function(inner, coldex, rowdex) {
+                    if (inner.length <= 0) return inner;
+                    var el = $.parseHTML(inner);
+                    var result = '';
+                    $.each(el, function(index, item) {
+                      if (item.classList !== undefined && item.classList.contains('user-name')) {
+                        result = result + item.lastChild.firstChild.textContent;
+                      } else if (item.innerText === undefined) {
+                        result = result + item.textContent;
+                      } else result = result + item.innerText;
+                    });
+                    return result;
+                  }
+                }
+              },
+              customize: function(win) {
+                //customize print view for dark
+                $(win.document.body)
+                  .css('color', config.colors.headingColor)
+                  .css('border-color', config.colors.borderColor)
+                  .css('background-color', config.colors.bodyBg);
+                $(win.document.body)
+                  .find('table')
+                  .addClass('compact')
+                  .css('color', 'inherit')
+                  .css('border-color', 'inherit')
+                  .css('background-color', 'inherit');
+              }
+            },
+            {
+              extend: 'excel',
+              text: '<i class="bx bxs-file-export me-1"></i>Excel',
+              className: 'dropdown-item',
+              exportOptions: {
+                columns: [3, 4, 5, 6, 7],
+                // prevent avatar to be display
+                format: {
+                  body: function(inner, coldex, rowdex) {
+                    if (inner.length <= 0) return inner;
+                    var el = $.parseHTML(inner);
+                    var result = '';
+                    $.each(el, function(index, item) {
+                      if (item.classList !== undefined && item.classList.contains('user-name')) {
+                        result = result + item.lastChild.firstChild.textContent;
+                      } else if (item.innerText === undefined) {
+                        result = result + item.textContent;
+                      } else result = result + item.innerText;
+                    });
+                    return result;
+                  }
+                }
+              }
+            },
+            {
+              extend: 'pdf',
+              text: '<i class="bx bxs-file-pdf me-1"></i>Pdf',
+              className: 'dropdown-item',
+              exportOptions: {
+                columns: [3, 4, 5, 6, 7],
+                // prevent avatar to be display
+                format: {
+                  body: function(inner, coldex, rowdex) {
+                    if (inner.length <= 0) return inner;
+                    var el = $.parseHTML(inner);
+                    var result = '';
+                    $.each(el, function(index, item) {
+                      if (item.classList !== undefined && item.classList.contains('user-name')) {
+                        result = result + item.lastChild.firstChild.textContent;
+                      } else if (item.innerText === undefined) {
+                        result = result + item.textContent;
+                      } else result = result + item.innerText;
+                    });
+                    return result;
+                  }
+                }
+              }
+            },
+            {
+              extend: 'copy',
+              text: '<i class="bx bx-copy me-1" ></i>Copy',
+              className: 'dropdown-item',
+              exportOptions: {
+                columns: [3, 4, 5, 6, 7],
+                // prevent avatar to be display
+                format: {
+                  body: function(inner, coldex, rowdex) {
+                    if (inner.length <= 0) return inner;
+                    var el = $.parseHTML(inner);
+                    var result = '';
+                    $.each(el, function(index, item) {
+                      if (item.classList !== undefined && item.classList.contains('user-name')) {
+                        result = result + item.lastChild.firstChild.textContent;
+                      } else if (item.innerText === undefined) {
+                        result = result + item.textContent;
+                      } else result = result + item.innerText;
+                    });
+                    return result;
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          text: '<i class="bx bx-plus me-sm-1"></i> <span class="d-none d-sm-inline-block">Agregar</span>',
+          className: 'nuevo btn btn-primary'
+        }
+      ]
     });
   }
 

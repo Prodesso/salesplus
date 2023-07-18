@@ -1,0 +1,67 @@
+<div class="authentication-inner py-4">
+    <!-- Forgot Password -->
+    <div class="card">
+        <div class="card-body">
+            <!-- Logo -->
+            <div class="app-brand justify-content-center">
+                <a href="index.html" class="app-brand-link gap-2">
+                    <span class="app-brand-logo demo">
+                        <img src="/img/logo/logo.jpeg" width="200" alt="">
+                    </span>
+                </a>
+            </div>
+            <!-- /Logo -->
+            <h4 class="mb-2">Escribe tu nueva contraseña 🔒</h4>
+            <form id="formAuthentication" class="mb-3" action="resetea" method="POST">
+                {{#if data}}
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="text" readonly class="form-control" id="email" name="email" value="{{data.email}}"
+                        placeholder="Enter your email" autofocus />
+                </div>
+                <div class="mb-3 form-password-toggle">
+                    <label class="form-label" for="password">Contraseña</label>
+                    <div class="input-group input-group-merge">
+                        <input type="password" id="password" class="form-control" name="password"
+                            placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
+                            aria-describedby="password" required />
+                        <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
+                    </div>
+                </div>
+                <div class="mb-3 form-password-toggle">
+                    <label class="form-label" for="confirmpassword">Confirma Contraseña</label>
+                    <div class="input-group input-group-merge">
+                        <input type="password" id="confirmpassword" class="form-control" name="confirmpassword"
+                            placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
+                            aria-describedby="confirmpassword" required onkeyup="validate_password()" />
+                        <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
+                    </div>
+                </div>
+                <span id="wrong_pass_alert"></span>
+                <button class="btn btn-primary d-grid w-100">Cambiar Password </button>
+                {{/if}}
+            </form>
+        </div>
+    </div>
+    <!-- /Forgot Password -->
+</div>
+<script>
+    function validate_password() {
+
+        var pass = document.getElementById('password').value;
+        var confirm_pass = document.getElementById('confirmpassword').value;
+        if (pass != confirm_pass) {
+            document.getElementById('wrong_pass_alert').style.color = 'red';
+            document.getElementById('wrong_pass_alert').innerHTML
+                = '☒ Contraseñas diferentes';
+            document.getElementById('create').disabled = true;
+            document.getElementById('create').style.opacity = (0.4);
+        } else {
+            document.getElementById('wrong_pass_alert').style.color = 'green';
+            document.getElementById('wrong_pass_alert').innerHTML =
+                '🗹 Contraseña Correcta';
+            document.getElementById('create').disabled = false;
+            document.getElementById('create').style.opacity = (1);
+        }
+    }
+</script>

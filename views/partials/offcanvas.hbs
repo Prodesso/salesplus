@@ -1,0 +1,1487 @@
+<div class="offcanvas offcanvas-end" id="nuevo-contacto">
+        <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title" id="exampleModalLabel">Nuevo Contacto</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body flex-grow-1">
+          <form class="add-new-record pt-0 row g-2" id="clienteadd" >
+             <div class="col-sm-12">
+                    <label class="form-label" for="nombreCliente2">Empresa</label>
+                    <div class="input-group input-group-merge">
+                        <span id="basicFullname2" class="input-group-text"><i class="bx bx-buildings"></i></span>
+                        <input type="text" id="empresa2" class="form-control dt-fields" name="empresa"
+                            placeholder="Prodesso SA de CV" aria-label="Prodesso SA de CV"
+                            aria-describedby="nombreCliente" />
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <label class="form-label" for="nombreContacto2">Nombre Completo</label>
+                    <div class="input-group input-group-merge">
+                        <span id="basicFullname2" class="input-group-text"><i class="bx bx-user"></i></span>
+                        <input type="text" id="nombrecontacto2" class="form-control dt-fields" name="nombrecontacto"
+                            placeholder="Nombre y apellidos" aria-label="Nombre y apellidos"
+                            aria-describedby="nombreContacto" />
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <label class="form-label" for="puestoContacto2">Puesto</label>
+                    <div class="input-group input-group-merge">
+                        <span id="basicPost2" class="input-group-text"><i class="bx bxs-briefcase"></i></span>
+                        <input type="text" id="puesto2" name="puesto" class="form-control dt-fields"
+                            placeholder="Gerente de Ventas" aria-label="Gerente de Ventas"
+                            aria-describedby="basicPost2" />
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <label class="form-label" for="eMailContacto">Email</label>
+                    <div class="input-group input-group-merge">
+                        <span class="input-group-text"><i class="bx bx-envelope"></i></span>
+                        <input type="text" id="email2" name="email" class="form-control dt-fields"
+                            placeholder="correo@ejemplo.com" aria-label="correo@ejemplo.com" />
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <label class="form-label" for="telefonoContacto2">Teléfono</label>
+                    <div class="input-group input-group-merge">
+                        <span class="input-group-text"><i class="bx bx-phone"></i></span>
+                        <input type="text" id="telefono2" name="telefono"
+                            class="form-control phone-number-mask dt-fields" placeholder="000 000 00 00"
+                            aria-label="000 000 00 00" />
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <label class="form-label" for="whatsappContacto2">Whatsapp</label>
+                    <div class="input-group input-group-merge">
+                        <span class="input-group-text"><i class="bx bxl-whatsapp"></i></span>
+                        <input type="text" id="whatsapp2" name="whatsapp"
+                            class="form-control whatsapp-number-mask dt-fields" placeholder="000 000 00 00"
+                            aria-label="000 000 00 00" />
+                    </div>
+                </div>
+               
+                <div class="col-sm-12">
+                <label class="form-label" for="estatus">Estatus</label>
+                <input
+                            id="estatus2"
+                            name="estatus"
+                            class="form-control statusMrk"
+                            placeholder="Estatus del Contacto"
+                            data-whitelist="Contacto no calificado,Prospecto poco interesado,Prospecto interesado,Cliente"
+                            value="" />
+                                        </div>
+                <div class="col-sm-12">
+                    <label class="form-label" for="fuente2">Fuente</label>
+                    <div class="input-group input-group-merge">
+                        <span id="basicFullname2" class="input-group-text"><i class="bx bx-world"></i></span>
+                        <select class="form-select dt-fields" id="fuente2" name="fuente">
+                            <option value="Instagram">
+                                Instagram
+                            </option>
+                            <option value="Facebook">
+                                Facebook
+                            </option>
+                            <option value="Whatsapp">
+                                Whatsapp
+                            </option>
+                            <option value="Prospección en Frio">
+                                Prospección en Frio
+                            </option>
+                            <option value="Correo">
+                                Correo
+                            </option>
+                            <option value="Pagina">
+                                Pagina
+                            </option>
+                            <option value="Recomendación">
+                                Recomendación
+                            </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <label class="form-label" for="propietario2">Vendedor</label>
+                    <div class="input-group input-group-merge">
+                        <span id="basicFullname2" class="input-group-text"><i class="bx bx-user-circle"></i></span>
+                        <input type="text" id="vendedor2" class="form-control dt-fields" name="vendedor"
+                            placeholder="Hugo Gonzalez" aria-label="Hugo Gonzalez" aria-describedby="propietario" />
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <button type="button" class="btn btn-sm btn-primary data-submit me-sm me-1 " id="clientec"
+                        form="clienteadd" data-bs-dismiss="offcanvas">Guardar</button>
+                    <button type="button" class="btn btn-sm btn-outline-primary data-submit me-sm me-1"
+                       id="clienteg" form="clienteadd" data-bs-dismiss="offcanvas">Guardar y
+                        Completar</button>
+                    <button type="reset" class="btn btn-sm btn-outline-secondary"
+                        data-bs-dismiss="offcanvas">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+<div class="offcanvas offcanvas-end" id="enviar-mensaje">
+        <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title" id="exampleModalLabel">Enviar Mensaje</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body flex-grow-1">
+            <form class="add-new-record pt-0 row g-2" id="form-add-new-em" method="POST">
+                <div class="col-sm-12">
+                    <input type="text" id="nombreClienteEM" class="form-control " name="nombreClienteEM"
+                        placeholder="John Doe" aria-label="John Doe" aria-describedby="nombreClienteEM" />
+                </div>
+                <div class="col-sm-12">
+                    <input type="text" id="nombreContactoEM" class="form-control " name="nombreContactoEM"
+                        placeholder="John Doe" aria-label="John Doe" aria-describedby="nombreContactoEM" />
+                </div>
+                <div class="col-sm-12">
+                    <button type="submit" class="btn btn-sm btn-primary data-submit me-sm me-1"
+                        formaction="/oportunidad">Guardar</button>
+
+                    <button type="reset" class="btn btn-sm btn-outline-secondary"
+                        data-bs-dismiss="offcanvas">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+<div class="offcanvas offcanvas-end" id="agregar-nota">
+        <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title" id="exampleModalLabel">Agregar Nota</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body flex-grow-1">
+            <form class="add-new-record pt-0 row g-2" id="form-add-new-an" method="POST">
+                <div class="col-sm-12">
+                    <input type="text" id="nombreClienteAN" class="form-control " name="nombreClienteAN"
+                        placeholder="John Doe" aria-label="John Doe" aria-describedby="nombreClienteAN" />
+                </div>
+                <div class="col-sm-12">
+                    <input type="text" id="nombreContactoAN" class="form-control " name="nombreContactoAN"
+                        placeholder="John Doe" aria-label="John Doe" aria-describedby="nombreContactoAN" />
+                </div>
+                <div class="col-sm-12">
+                    <button type="submit" class="btn btn-sm btn-primary data-submit me-sm me-1"
+                        formaction="/oportunidad">Guardar</button>
+
+                    <button type="reset" class="btn btn-sm btn-outline-secondary"
+                        data-bs-dismiss="offcanvas">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+<div class="offcanvas  offcanvas-end" id="nueva-oportunidad">
+        <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title" id="exampleModalLabel">Nueva Oportunidad</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body flex-grow-1">
+            <form class="add-new-record pt-0 row g-2" id="form-add-new-op" method="POST">
+                <div class="col-sm-12" id="nombreClienteOP">
+                    <label class="form-label" for="nombreClienteOP">Cliente</label>
+                    <select  name="nombreClienteOP" class="form-select">
+                        <option>
+                            -- Selecciona un Cliente --
+                        </option>
+                        <option value="Prueba de Cliente" data-titular="Titular"
+                            data-nombre-contacto="Prueba de Cliente">
+                            Prueba de Cliente
+                        </option>
+                    </select>
+                </div>
+                <div class="col-sm-12">
+                    <label class="form-label" for="cierreEstimado">Cierre Estimado</label>
+                    <input type="date" id="cierreEstimado" class="form-control dt-fields" name="cierreEstimado"
+                        placeholder="01/01/2023" aria-label="01/01/2023" aria-describedby="cierreEstimado" />
+                </div>
+                <div class="col-sm-12">
+                    <label class="form-label" for="cierreEstimado">Probabilidad de cierre</label>
+                    <select  name="probabilidad" class="form-select">
+                        <option value="Fria">Fría</option>
+                        <option value="Caliente">Caliente</option>
+                        <option value="Aceptada">Aceptada</option>
+                        <option value="Cerrada">Cerrada</option>
+                        <option value="Perdida">Perdida</option>
+                    </select>
+                </div>
+                <div class="col-sm-12">
+                        <div data-repeater-list="Productos">
+                            <div class="repeater-wrapper pt-0 pt-md-4" data-repeater-item>
+                                <div class="d-flex border rounded position-relative pe-0">
+                                    <div class="row w-100 m-0 p-3">
+                                        <div class="col-sm-12 col-lg-6">
+                                            <p class="mb-2 repeater-title">Producto</p>
+                                            <select class="form-select item-details mb-2">
+                                            </select>
+                                            <textarea class="form-control" rows="2"></textarea>
+                                        </div>
+                                        <div class="col-sm-12 col-lg-2">
+                                            <p class="mb-2 repeater-title">Costo</p>
+                                            <input type="number" class="form-control invoice-item-price mb-2" value="0.00"
+                                                placeholder="0" min="0" />
+                                            <div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-lg-2">
+                                            <p class="mb-2 repeater-title">Cant</p>
+                                            <input type="number" class="form-control invoice-item-qty" value="1"
+                                                placeholder="1" min="1"  />
+                                        </div>
+                                        <div class="col-sm-12 col-lg-2">
+                                            <p class="mb-2 repeater-title">Precio Total</p>
+                                            <p class="mb-0">$ 0.00</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="d-flex flex-column align-items-center justify-content-between border-start p-2">
+                                        <i class="bx bx-x fs-4 text-muted cursor-pointer" data-repeater-delete></i>
+                                        <div class="dropdown">
+                                            <i class="bx bx-cog bx-xs text-muted cursor-pointer more-options-dropdown"
+                                                role="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+                                                data-bs-auto-close="outside" aria-expanded="false">
+                                            </i>
+                                            <div class="dropdown-menu dropdown-menu-end w-px-300 p-3"
+                                                aria-labelledby="dropdownMenuButton">
+                                                <div class="row g-3">
+                                                    <div class="col-12">
+                                                        <label for="discountInput"
+                                                            class="form-label">Descuento(%)</label>
+                                                        <input type="number" class="form-control" id="discountInput"
+                                                            min="0" max="100" />
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <label for="taxInput1" class="form-label">IVA</label>
+                                                        <select name="tax-1-input" id="taxInput1"
+                                                            class="form-select tax-select">
+                                                            <option value="0%" selected>0%</option>
+                                                            <option value="10%">10%</option>
+                                                            <option value="16%">16%</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown-divider my-3"></div>
+                                                <button type="button"
+                                                    class="btn btn-sm btn-label-primary btn-apply-changes">Aplicar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row pt-3">
+                            <div class="col-sm-12">
+                                <button type="button" class="btn btn-sm btn-primary" data-repeater-create>Agregar</button>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-sm-12">
+                    <button type="submit" class="btn btn-sm btn-primary data-submit me-sm me-1"
+                        formaction="/oportunidad">Guardar</button>
+
+                    <button type="reset" class="btn btn-sm btn-outline-secondary"
+                        data-bs-dismiss="offcanvas">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+<div class="offcanvas  offcanvas-end kanban-update-item-sidebar" style="z-index:1095" id="edit">
+        <div class="offcanvas-header border-bottom py-3 my-1">
+            <h5 class="offcanvas-title">Editar Oportunidad</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body pt-4">
+            <ul class="nav nav-pills tabs-line">
+                <li class="nav-item">
+                    <button class="nav-link active shadow-none" data-bs-toggle="tab" data-bs-target="#tab-update">
+                        <i class="bx bx-edit me-2"></i>
+                        <span class="align-middle text-uppercase">Editar</span>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link shadow-none" data-bs-toggle="tab" data-bs-target="#tab-activity">
+                        <i class="bx bx-bar-chart me-2"></i>
+                        <span class="align-middle text-uppercase">Actividad</span>
+                    </button>
+                </li>
+            </ul>
+            <div class="tab-content px-0 pb-0 border-0">
+                <!-- Update item/tasks -->
+                <div class="tab-pane fade show active" id="tab-update" role="tabpanel">
+                                <form class="add-new-record pt-0 row g-2" id="form-add-new-op" method="POST">
+                <div class="col-sm-12" id="nombreClienteOP">
+                    <label class="form-label" for="nombreClienteOP">Cliente</label>
+                    <select  name="nombreClienteOP" class="form-select">
+                        <option>
+                            -- Selecciona un Cliente --
+                        </option>
+                        <option value="Prueba de Cliente" data-titular="Titular"
+                            data-nombre-contacto="Prueba de Cliente">
+                            Prueba de Cliente
+                        </option>
+                    </select>
+                </div>
+                <div class="col-sm-12">
+                    <label class="form-label" for="cierreEstimado">Cierre Estimado</label>
+                    <input type="date" id="cierreEstimado" class="form-control dt-fields" name="cierreEstimado"
+                        placeholder="01/01/2023" aria-label="01/01/2023" aria-describedby="cierreEstimado" />
+                </div>
+                <div class="col-sm-12">
+                    <label class="form-label" for="cierreEstimado">Probabilidad de cierre</label>
+                    <select  name="probabilidad" class="form-select">
+                        <option value="Fria">Fría</option>
+                        <option value="Caliente">Caliente</option>
+                        <option value="Aceptada">Aceptada</option>
+                        <option value="Cerrada">Cerrada</option>
+                        <option value="Perdida">Perdida</option>
+                    </select>
+                </div>
+                <div class="col-sm-12">
+                        <div data-repeater-list="group-a">
+                            <div class="repeater-wrapper pt-0 pt-md-4" data-repeater-item>
+                                <div class="d-flex border rounded position-relative pe-0">
+                                    <div class="row w-100 m-0 p-3">
+                                        <div class="col-sm-12 col-lg-6">
+                                            <p class="mb-2 repeater-title">Producto</p>
+                                            <select class="form-select item-details mb-2">
+                                            </select>
+                                            <textarea class="form-control" rows="2"></textarea>
+                                        </div>
+                                        <div class="col-sm-12 col-lg-2">
+                                            <p class="mb-2 repeater-title">Costo</p>
+                                            <input type="number" class="form-control invoice-item-price mb-2" value="0.00"
+                                                placeholder="0" min="0" />
+                                            <div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-lg-2">
+                                            <p class="mb-2 repeater-title">Cant</p>
+                                            <input type="number" class="form-control invoice-item-qty" value="1"
+                                                placeholder="1" min="1"  />
+                                        </div>
+                                        <div class="col-sm-12 col-lg-2">
+                                            <p class="mb-2 repeater-title">Precio Total</p>
+                                            <p class="mb-0" id="price">$ 0.00</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="d-flex flex-column align-items-center justify-content-between border-start p-2">
+                                        <i class="bx bx-x fs-4 text-muted cursor-pointer" data-repeater-delete></i>
+                                        <div class="dropdown">
+                                            <i class="bx bx-cog bx-xs text-muted cursor-pointer more-options-dropdown"
+                                                role="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+                                                data-bs-auto-close="outside" aria-expanded="false">
+                                            </i>
+                                            <div class="dropdown-menu dropdown-menu-end w-px-300 p-3"
+                                                aria-labelledby="dropdownMenuButton">
+                                                <div class="row g-3">
+                                                    <div class="col-12">
+                                                        <label for="discountInput"
+                                                            class="form-label">Descuento(%)</label>
+                                                        <input type="number" class="form-control" id="discountInput"
+                                                            min="0" max="100" />
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <label for="taxInput1" class="form-label">IVA</label>
+                                                        <select name="tax-1-input" id="taxInput1"
+                                                            class="form-select tax-select">
+                                                            <option value="0%" selected>0%</option>
+                                                            <option value="10%">10%</option>
+                                                            <option value="16%">16%</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown-divider my-3"></div>
+                                                <button type="button"
+                                                    class="btn btn-sm btn-label-primary btn-apply-changes">Aplicar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row pt-3">
+                            <div class="col-sm-12">
+                                <button type="button" class="btn btn-sm btn-primary" data-repeater-create>Agregar</button>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-sm-12">
+                    <button type="submit" class="btn btn-sm btn-primary data-submit me-sm me-1"
+                        formaction="/oportunidad">Guardar</button>
+
+                    <button type="reset" class="btn btn-sm btn-outline-secondary"
+                        data-bs-dismiss="offcanvas">Cancelar</button>
+                </div>
+            </form>
+                </div>
+                <!-- Activities -->
+                <div class="tab-pane fade" id="tab-activity" role="tabpanel">
+                    <div class="row">
+                        <!-- Timeline Left-->
+                        <div class="col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    
+                                    <ul class="timeline">
+            <li class="timeline-item timeline-item-transparent">
+              <span class="timeline-point timeline-point-primary"></span>
+              <div class="timeline-event">
+                <div class="timeline-header mb-1">
+                  <h6 class="mb-0"><i class="fas fa-phone"></i> Llamar al Contacto</h6>
+                  <small class="text-muted">en 1 Mes</small>
+                </div>
+                <p class="mb-2">Llamar al contacto de la compañia</p>
+              </div>
+            </li>
+            <li class="timeline-item timeline-item-transparent">
+              <span class="timeline-point timeline-point-success"></span>
+              <div class="timeline-event">
+                <div class="timeline-header mb-1">
+                  <h6 class="mb-0"><i class="fas fa-calendar"></i> Visitar al Cliente</h6>
+                  <small class="text-muted">Realizada</small>
+                </div>
+                <p class="mb-2">Reunion en sus oficinas</p>
+              </div>
+            </li>
+            <li class="timeline-item timeline-item-transparent">
+              <span class="timeline-point timeline-point-danger"></span>
+              <div class="timeline-event pb-0">
+                <div class="timeline-header mb-1">
+                  <h6 class="mb-0 text-danger"><i class="fas fa-envelope"></i> Enviar Correo</h6>
+                  <small class="text-danger">Hace 5 días </small>
+                </div>
+                <p class="mb-2text-danger">Enviar el correo con las cotizaciones</p>
+              </div>
+            </li>
+            <li class="timeline-end-indicator">
+              <i class="bx bx-check-circle"></i>
+            </li>
+          </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Timeline Left-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- Agregar Oportunidad -->
+<div class="offcanvas offcanvas-end" id="sendInvoiceOffcanvas" aria-hidden="true">
+                <div class="offcanvas-header mb-3">
+                  <h5 class="offcanvas-title">Enviar Factura</h5>
+                  <button
+                    type="button"
+                    class="btn-close text-reset"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body flex-grow-1">
+                  <form>
+                    <div class="mb-3">
+                      <label for="invoice-from" class="form-label">De</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="invoice-from"
+                        value="correo@email.com"
+                        placeholder="correo@email.com" />
+                    </div>
+                    <div class="mb-3">
+                      <label for="invoice-to" class="form-label">Para</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="invoice-to"
+                        value="correo@email.com"
+                        placeholder="correo@email.com" />
+                    </div>
+                    <div class="mb-3">
+                      <label for="invoice-subject" class="form-label">Titulo</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="invoice-subject"
+                        value="Titulo del correo"
+                        placeholder="Titulo del correo" />
+                    </div>
+                    <div class="mb-3">
+                      <label for="invoice-message" class="form-label">Mensaje</label>
+                      <textarea class="form-control" name="invoice-message" id="invoice-message" cols="3" rows="8"></textarea>
+                    </div>
+                    <div class="mb-4">
+                      <span class="badge bg-label-primary">
+                        <i class="bx bx-link bx-xs"></i>
+                        <span class="align-middle">Factura Adjuntada</span>
+                      </span>
+                    </div>
+                    <div class="mb-3 d-flex flex-wrap">
+                      <button type="button" class="btn btn-primary me-3" data-bs-dismiss="offcanvas">Enviar</button>
+                      <button type="button" class="btn btn-label-secondary" data-bs-dismiss="offcanvas">Cancelar</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+<div class="offcanvas offcanvas-end event-sidebar" tabindex="-1" id="addEventSidebar" aria-labelledby="addEventSidebarLabel">
+                    <div class="offcanvas-header border-bottom">
+                        <h5 class="offcanvas-title mb-2" id="addEventSidebarLabel">Seguimiento</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <form class="event-form pt-0" id="eventForm" onsubmit="return false">
+                            <div class="mb-3">
+                                <label class="form-label" for="eventTitle">Titulo</label>
+                                <input type="text" class="form-control" id="eventTitle" name="eventTitle"
+                                    placeholder="Event Title" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="eventLabel">Tipo</label>
+                                <select class="select2 select-event-label form-select" id="eventLabel"
+                                    name="eventLabel">
+                                    <option data-label="primary" value="Business" selected>Llamada</option>
+                                    <option data-label="danger" value="Personal">Mensaje</option>
+                                    <option data-label="warning" value="Family">Visita</option>
+                                    <option data-label="success" value="Holiday">Correo</option>
+                                    <option data-label="info" value="ETC">Otro</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="eventStartDate">Fecha Inicio</label>
+                                <input type="text" class="form-control" id="eventStartDate" name="eventStartDate"
+                                    placeholder="Start Date" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="eventEndDate">Fecha Final</label>
+                                <input type="text" class="form-control" id="eventEndDate" name="eventEndDate"
+                                    placeholder="End Date" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="switch">
+                                    <input type="checkbox" class="switch-input allDay-switch" />
+                                    <span class="switch-toggle-slider">
+                                        <span class="switch-on"></span>
+                                        <span class="switch-off"></span>
+                                    </span>
+                                    <span class="switch-label">Todo el Día</span>
+                                </label>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="eventURL">URL del Evento</label>
+                                <input type="url" class="form-control" id="eventURL" name="eventURL"
+                                    placeholder="https://www.google.com" />
+                            </div>
+                            <div class="mb-3 select2-primary">
+                                <label class="form-label" for="eventGuests">Invitados</label>
+                                <select class="select2 select-event-guests form-select" id="eventGuests"
+                                    name="eventGuests" multiple>
+                                    <option data-avatar="1.png" value="Jane Foster">Jane Foster</option>
+                                    <option data-avatar="3.png" value="Donna Frank">Donna Frank</option>
+                                    <option data-avatar="5.png" value="Gabrielle Robertson">Gabrielle Robertson</option>
+                                    <option data-avatar="7.png" value="Lori Spears">Lori Spears</option>
+                                    <option data-avatar="9.png" value="Sandy Vega">Sandy Vega</option>
+                                    <option data-avatar="11.png" value="Cheryl May">Cheryl May</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="eventLocation">Lugar</label>
+                                <input type="text" class="form-control" id="eventLocation" name="eventLocation"
+                                    placeholder="Enter Location" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="eventDescription">Descripción</label>
+                                <textarea class="form-control" name="eventDescription" id="eventDescription"></textarea>
+                            </div>
+                            <div class="mb-3 d-flex justify-content-sm-between justify-content-start my-4">
+                                <div>
+                                    <button type="submit"
+                                        class="btn btn-primary btn-add-event me-sm-3 me-1">Agregar</button>
+                                    <button type="reset" class="btn btn-label-secondary btn-cancel me-sm-0 me-1"
+                                        data-bs-dismiss="offcanvas">
+                                        Cancel
+                                    </button>
+                                </div>
+                                <div><button class="btn btn-label-danger btn-delete-event d-none">Borrar</button></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+<div class="modal fade" id="invoice" tabindex="-1" style="z-index:1090">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-simple modal-upgrade-plan">
+            <div class="modal-content p-3 p-md-5">
+                <div class="modal-body p-2">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="text-center">
+                        <h3 class="mb-2">Oportunidad</h3>
+                    </div>
+                    <div class="container-xxl flex-grow-1 container-p-y">
+                        <div class="row invoice-preview">
+                            <!-- Invoice -->
+                            <div class="col-xl-9 col-md-8 col-12 mb-md-0 mb-4">
+                                <div class="card invoice-preview-card">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between flex-xl-row flex-md-column flex-sm-row flex-column p-sm-3 p-0">
+                                            <div class="mb-xl-0 mb-4">
+                                                <div class="d-flex svg-illustration mb-3 gap-2">
+                                                    <span class="app-brand-logo demo">
+                                                        <svg width="25" viewBox="0 0 25 42" version="1.1"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                            <defs>
+                                                                <path
+                                                                    d="M13.7918663,0.358365126 L3.39788168,7.44174259 C0.566865006,9.69408886 -0.379795268,12.4788597 0.557900856,15.7960551 C0.68998853,16.2305145 1.09562888,17.7872135 3.12357076,19.2293357 C3.8146334,19.7207684 5.32369333,20.3834223 7.65075054,21.2172976 L7.59773219,21.2525164 L2.63468769,24.5493413 C0.445452254,26.3002124 0.0884951797,28.5083815 1.56381646,31.1738486 C2.83770406,32.8170431 5.20850219,33.2640127 7.09180128,32.5391577 C8.347334,32.0559211 11.4559176,30.0011079 16.4175519,26.3747182 C18.0338572,24.4997857 18.6973423,22.4544883 18.4080071,20.2388261 C17.963753,17.5346866 16.1776345,15.5799961 13.0496516,14.3747546 L10.9194936,13.4715819 L18.6192054,7.984237 L13.7918663,0.358365126 Z"
+                                                                    id="path-1"></path>
+                                                                <path
+                                                                    d="M5.47320593,6.00457225 C4.05321814,8.216144 4.36334763,10.0722806 6.40359441,11.5729822 C8.61520715,12.571656 10.0999176,13.2171421 10.8577257,13.5094407 L15.5088241,14.433041 L18.6192054,7.984237 C15.5364148,3.11535317 13.9273018,0.573395879 13.7918663,0.358365126 C13.5790555,0.511491653 10.8061687,2.3935607 5.47320593,6.00457225 Z"
+                                                                    id="path-3"></path>
+                                                                <path
+                                                                    d="M7.50063644,21.2294429 L12.3234468,23.3159332 C14.1688022,24.7579751 14.397098,26.4880487 13.008334,28.506154 C11.6195701,30.5242593 10.3099883,31.790241 9.07958868,32.3040991 C5.78142938,33.4346997 4.13234973,34 4.13234973,34 C4.13234973,34 2.75489982,33.0538207 2.37032616e-14,31.1614621 C-0.55822714,27.8186216 -0.55822714,26.0572515 -4.05231404e-15,25.8773518 C0.83734071,25.6075023 2.77988457,22.8248993 3.3049379,22.52991 C3.65497346,22.3332504 5.05353963,21.8997614 7.50063644,21.2294429 Z"
+                                                                    id="path-4"></path>
+                                                                <path
+                                                                    d="M20.6,7.13333333 L25.6,13.8 C26.2627417,14.6836556 26.0836556,15.9372583 25.2,16.6 C24.8538077,16.8596443 24.4327404,17 24,17 L14,17 C12.8954305,17 12,16.1045695 12,15 C12,14.5672596 12.1403557,14.1461923 12.4,13.8 L17.4,7.13333333 C18.0627417,6.24967773 19.3163444,6.07059163 20.2,6.73333333 C20.3516113,6.84704183 20.4862915,6.981722 20.6,7.13333333 Z"
+                                                                    id="path-5"></path>
+                                                            </defs>
+                                                            <g id="g-app-brand" stroke="none" stroke-width="1"
+                                                                fill="none" fill-rule="evenodd">
+                                                                <g id="Brand-Logo"
+                                                                    transform="translate(-27.000000, -15.000000)">
+                                                                    <g id="Icon"
+                                                                        transform="translate(27.000000, 15.000000)">
+                                                                        <g id="Mask"
+                                                                            transform="translate(0.000000, 8.000000)">
+                                                                            <mask id="mask-2" fill="white">
+                                                                                <use xlink:href="#path-1"></use>
+                                                                            </mask>
+                                                                            <use fill="#696cff" xlink:href="#path-1">
+                                                                            </use>
+                                                                            <g id="Path-3" mask="url(#mask-2)">
+                                                                                <use fill="#696cff"
+                                                                                    xlink:href="#path-3"></use>
+                                                                                <use fill-opacity="0.2" fill="#FFFFFF"
+                                                                                    xlink:href="#path-3"></use>
+                                                                            </g>
+                                                                            <g id="Path-4" mask="url(#mask-2)">
+                                                                                <use fill="#696cff"
+                                                                                    xlink:href="#path-4"></use>
+                                                                                <use fill-opacity="0.2" fill="#FFFFFF"
+                                                                                    xlink:href="#path-4"></use>
+                                                                            </g>
+                                                                        </g>
+                                                                        <g id="Triangle"
+                                                                            transform="translate(19.000000, 11.000000) rotate(-300.000000) translate(-19.000000, -11.000000) ">
+                                                                            <use fill="#696cff" xlink:href="#path-5">
+                                                                            </use>
+                                                                            <use fill-opacity="0.2" fill="#FFFFFF"
+                                                                                xlink:href="#path-5"></use>
+                                                                        </g>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="app-brand-text demo text-body fw-bolder">Sneat</span>
+                                                </div>
+                                                <p class="mb-1">Office 149, 450 South Brand Brooklyn</p>
+                                                <p class="mb-1">San Diego County, CA 91905, USA</p>
+                                                <p class="mb-0">+1 (123) 456 7891, +44 (876) 543 2198</p>
+                                            </div>
+                                            <div>
+                                                <h4>Invoice #3492</h4>
+                                                <div class="mb-2">
+                                                    <span class="me-1">Date Issues:</span>
+                                                    <span class="fw-semibold">25/08/2020</span>
+                                                </div>
+                                                <div>
+                                                    <span class="me-1">Date Due:</span>
+                                                    <span class="fw-semibold">29/08/2020</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="my-0" />
+                                    <div class="card-body">
+                                        <div class="row p-sm-3 p-0">
+                                            <div
+                                                class="col-xl-6 col-md-12 col-sm-5 col-12 mb-xl-0 mb-md-4 mb-sm-0 mb-4">
+                                                <h6 class="pb-2">Factura para:</h6>
+                                                <p class="mb-1">HDH Systems SA de CV</p>
+                                                <p class="mb-1">Daniel Barbosa</p>
+                                                <p class="mb-1">Juarez, NL, Mex</p>
+                                                <p class="mb-1">8116009308</p>
+                                                <p class="mb-0">d.barbosa@live.com.mx</p>
+                                            </div>
+                                            <div class="col-xl-6 col-md-12 col-sm-7 col-12">
+                                                <h6 class="pb-2"></h6>
+                                                <table>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="pe-3">Total:</td>
+                                                            <td>$12,110.55</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="pe-3">Cuenta Bancaria:</td>
+                                                            <td>Banorte</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="pe-3">País:</td>
+                                                            <td>MX</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="pe-3">CLABE:</td>
+                                                            <td>6565656565655665</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="pe-3">SWIFT:</td>
+                                                            <td>BR91905</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="table-responsive">
+                                        <small><table class="table border-top m-0">
+                                            <thead>
+                                                <tr>
+                                                    <th>Producto</th>
+                                                    <th>Descripción</th>
+                                                    <th>Costo</th>
+                                                    <th>Cantidad</th>
+                                                    <th>Total</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="text-nowrap">Vuexy Admin Template</td>
+                                                    <td class="text-nowrap">HTML Admin Template</td>
+                                                    <td>$32</td>
+                                                    <td>1</td>
+                                                    <td>$32.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-nowrap">Frest Admin Template</td>
+                                                    <td class="text-nowrap">Angular Admin Template</td>
+                                                    <td>$22</td>
+                                                    <td>1</td>
+                                                    <td>$22.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="3" class="align-top px-4 py-5">
+                                                        <p class="mb-2">
+                                                            <span class="me-1 fw-semibold">Vendedor:</span>
+                                                            <span>Hugo Gzz</span>
+                                                        </p>
+                                                    </td>
+                                                    <td class="text-end px-4 py-5">
+                                                        <p class="mb-2">Subtotal:</p>
+                                                        <p class="mb-2">Descuento:</p>
+                                                        <p class="mb-2">IVA:</p>
+                                                        <p class="mb-0">Total:</p>
+                                                    </td>
+                                                    <td class="px-4 py-5">
+                                                        <p class="fw-semibold mb-2">$154.25</p>
+                                                        <p class="fw-semibold mb-2">$00.00</p>
+                                                        <p class="fw-semibold mb-2">$50.00</p>
+                                                        <p class="fw-semibold mb-0">$204.25</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table></small>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <span class="fw-semibold">Nota:</span>
+                                                <span>Gracias por su compra!</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Invoice -->
+
+                            <!-- Invoice Actions -->
+                            <div class="col-xl-3 col-md-4 col-12 invoice-actions">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <button class="btn btn-primary d-grid w-100 mb-3" data-bs-toggle="offcanvas"
+                                            data-bs-target="#sendInvoiceOffcanvas">
+                                            <span
+                                                class="d-flex align-items-center justify-content-center text-nowrap"><i
+                                                    class="bx bx-paper-plane bx-xs me-1"></i>Enviar por Correo</span>
+                                        </button>
+                                      <button class="btn btn-primary d-grid w-100 mb-3" data-bs-toggle="offcanvas" data-bs-toggle="modal"
+                                            data-bs-target="#edit">
+                                            <span
+                                                class="d-flex align-items-center justify-content-center text-nowrap"><i
+                                                    class="bx bx-pencil bx-xs me-1"></i>Editar</span>
+                                        </button>
+                                        <button class="btn btn-primary d-grid w-100" data-bs-toggle="offcanvas"
+                                            data-bs-target="#agregarPago" disabled>
+                                            <span
+                                                class="d-flex align-items-center justify-content-center text-nowrap"><i
+                                                    class="bx bx-dollar bx-xs me-1"></i>Agregar Pago</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Invoice Actions -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="modal fade" id="nueva-camp" tabindex="-1" aria-hidden="true">
+    <div
+      class="modal-dialog modal-xl modal-dialog-centered modal-simple modal-upgrade-plan"
+    >
+      <div class="modal-content p-3 p-md-5">
+        <div class="modal-body p-2">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+          <div class="text-center">
+            <h3 class="mb-2">Crear Campañas</h3>
+          </div>
+          <!-- App Wizard -->
+           <div class="row">
+          <div id="full-editor">
+          </div>
+             </div>
+          <div class="row fecha">
+            <div class="col-md-6 col-12 mb-4">
+              <label for="flatpickr-datetime" class="form-label">Inicio de
+                Campaña</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="YYYY-MM-DD HH:MM"
+                id="flatpickr-datetime"
+              />
+            </div>
+            <div class="col-md-6 col-12 mb-4">
+              <label for="flatpickr-datetime2" class="form-label">Final de
+                Campaña</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="YYYY-MM-DD HH:MM"
+                id="flatpickr-datetime2"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <label class="form-label" for="estatus2">Estado</label>
+              <input
+                id="TagifyCustomListSuggestion"
+                name="TagifyCustomListSuggestion"
+                class="form-control statusMrk"
+                placeholder="Estatus del Contacto"
+                data-whitelist="Contacto no calificado,Prospecto poco interesado,Prospecto interesado,Cliente"
+                value=""
+              />
+            </div>
+            <div class="col-md-6 mb-2">
+              <label class="form-label" for="chck">Indefinido</label>
+              <label
+                class="switch form-control no-border"
+                name="chck"
+                id="chck"
+              >
+                <input type="checkbox" class="switch-input" />
+                <span class="switch-toggle-slider">
+                  <span class="switch-on">
+                    <i class="bx bx-check"></i>
+                  </span>
+                  <span class="switch-off">
+                    <i class="bx bx-x"></i>
+                  </span>
+                </span>
+              </label>
+
+            </div>
+          </div>
+
+          <!--/ App Wizard -->
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="modal fade" id="terminos" tabindex="-1" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-scrollable" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel1">Términos y Condiciones
+                                                </h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col mb-3">
+                                                        <iframe style="height:500px; width:100%"
+                                                            src=""
+                                                            frameborder="0"></iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+<div class="modal fade" id="datos" tabindex="-1" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-scrollable" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel1">Protección de datos</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col mb-3">
+                                                        <iframe
+                                                            src="https://privacidad.salespluscrm.io/protección_de_datos"
+                                                            frameborder="0"></iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+<div class="modal fade" id="politicas" tabindex="-1" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-scrollable" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel1">Políticas</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col mb-3">
+                                                        <iframe src="https://privacidad.salespluscrm.io/politicas"
+                                                            frameborder="0"></iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+<div class="modal fade" id="ContactoModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-simple modal-upgrade-plan">
+            <div class="modal-content p-3 p-md-5">
+                <div class="modal-body p-2">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="text-center">
+                        <h3 class="mb-2">Editar Cliente</h3>
+                    </div>
+                    <!-- App Wizard -->
+                    <div class="bs-stepper wizard-numbered mt-2">
+                        <div class="bs-stepper-header">
+                            <div class="step" data-target="#contacto">
+                                <button type="button" class="step-trigger">
+                                    <span class="bs-stepper-circle">1</span>
+                                    <span class="bs-stepper-label mt-1">
+                                        <span class="bs-stepper-title">Datos del Contacto</span>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="line">
+                                <i class="bx bx-chevron-right"></i>
+                            </div>
+                            <div class="step" data-target="#direccion">
+                                <button type="button" class="step-trigger">
+                                    <span class="bs-stepper-circle">2</span>
+                                    <span class="bs-stepper-label mt-1">
+                                        <span class="bs-stepper-title">Dirección</span>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="line">
+                                <i class="bx bx-chevron-right"></i>
+                            </div>
+                            <div class="step" data-target="#empresa">
+                                <button type="button" class="step-trigger">
+                                    <span class="bs-stepper-circle">3</span>
+                                    <span class="bs-stepper-label mt-1">
+                                        <span class="bs-stepper-title">Datos de la Empresa</span>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="bs-stepper-content">
+                            <form id="formSubmit" method="POST" onsubmit="return false">
+                                <!-- Contacto -->
+                                <div id="contacto" class="content">
+                                    <div class="content-header mb-3">
+                                        <h6 class="mb-0">Datos del Contacto</h6>
+                                    </div>
+                                    <div class="row g-3">
+                                        <div class="col-sm-6">
+                                            <label class="form-label" for="nombreContacto">Nombre Completo</label>
+                                            <div class="input-group input-group-merge">
+                                                <span id="basicFullname2" class="input-group-text"><i
+                                                        class="bx bx-user"></i></span>
+                                                <input type="text" id="nombreContacto" class="form-control dt-fields"
+                                                    name="nombreContacto" placeholder="Nombre y Apellidos"
+                                                    aria-label="Nombre y Apellidos" aria-describedby="nombreContacto" />
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <label class="form-label" for="puestoContacto">Puesto</label>
+                                            <div class="input-group input-group-merge">
+                                                <span id="basicPost2" class="input-group-text"><i
+                                                        class="bx bxs-briefcase"></i></span>
+                                                <input type="text" id="puestoContacto" name="puestoContacto"
+                                                    class="form-control dt-fields" placeholder="Gerente Regional"
+                                                    aria-label="Gerente Regional" aria-describedby="basicPost2" />
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <label class="form-label" for="eMailContacto">Email</label>
+                                            <div class="input-group input-group-merge">
+                                                <span class="input-group-text"><i class="bx bx-envelope"></i></span>
+                                                <input type="text" id="eMailContacto" name="eMailContacto"
+                                                    class="form-control dt-fields" placeholder="john.doe@example.com"
+                                                    aria-label="john.doe@example.com" />
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <label class="form-label" for="telefonoContacto">Teléfono</label>
+                                            <div class="input-group input-group-merge">
+                                                <span class="input-group-text"><i class="bx bx-phone"></i></span>
+                                                <input type="text" id="telefonoContacto" name="telefonoContacto"
+                                                    class="form-control phone-number-mask dt-fields"
+                                                    placeholder="000 000 00 00" aria-label="000 000 00 00" />
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <label class="form-label" for="whatsappContacto">Whatsapp</label>
+                                            <div class="input-group input-group-merge">
+                                                <span class="input-group-text"><i class="bx bxl-whatsapp"></i></span>
+                                                <input type="text" id="whatsappContacto" name="whatsappContacto"
+                                                    class="form-control whatsapp-number-mask dt-fields"
+                                                    placeholder="000 000 00 00" aria-label="000 000 00 00" />
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <label class="form-label" for="nombreCliente">Empresa</label>
+                                            <div class="input-group input-group-merge">
+                                                <span id="basicFullname2" class="input-group-text"><i
+                                                        class="bx bx-buildings"></i></span>
+                                                <input type="text" id="nombreCliente" class="form-control dt-fields"
+                                                    name="nombreCliente" placeholder="John Doe" aria-label="John Doe"
+                                                    aria-describedby="nombreCliente" />
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                <label class="form-label" for="estatus2">Estado</label>
+                 <input
+                            id="TagifyCustomListSuggestion"
+                            name="TagifyCustomListSuggestion"
+                            class="form-control statusMrk"
+                            placeholder="Estatus del Contacto"
+                            data-whitelist="Contacto no calificado,Prospecto poco interesado,Prospecto interesado,Cliente"
+                            value="" />
+                                        </div>
+                                      
+                                        <div class="col-sm-6">
+                                            <label class="form-label" for="fuente">Fuente</label>
+                                            <div class="input-group input-group-merge">
+                                                <span id="basicFullname2" class="input-group-text"><i
+                                                        class="bx bx-world"></i></span>
+                                                <select class="form-select dt-fields" id="fuente" name="fuente">
+                                                    <option value="Instagram">
+                                                        Instagram
+                                                    </option>
+                                                    <option value="Facebook">
+                                                        Facebook
+                                                    </option>
+                                                    <option value="Whatsapp">
+                                                        Whatsapp
+                                                    </option>
+                                                    <option value="Prospección en Frio">
+                                                        Prospección en Frio
+                                                    </option>
+                                                    <option value="Correo">
+                                                        Correo
+                                                    </option>
+                                                    <option value="Pagina">
+                                                        Pagina
+                                                    </option>
+                                                    <option value="Recomendación">
+                                                        Recomendación
+                                                    </option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <label class="form-label" for="propietario">Propietario</label>
+                                            <div class="input-group input-group-merge">
+                                                <span id="basicFullname2" class="input-group-text"><i
+                                                        class="bx bx-user-circle"></i></span>
+                                                <input type="text" id="propietario" class="form-control dt-fields"
+                                                    name="propietario" placeholder="John Doe" aria-label="Hugo Gonzalez"
+                                                    aria-describedby="propietario" />
+                                            </div>
+                                        </div>
+                                        <div class="col-12 d-flex justify-content-between">
+                                            <button class="btn btn-label-secondary btn-prev" disabled>
+                                                <i class="bx bx-chevron-left bx-sm ms-sm-n2"></i>
+                                                <span class="align-middle d-sm-inline-block d-none">Anterior</span>
+                                            </button>
+                                            <button class="btn btn-primary btn-next">
+                                                <span
+                                                    class="align-middle d-sm-inline-block d-none me-sm-1">Siguiente</span>
+                                                <i class="bx bx-chevron-right bx-sm me-sm-n2"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Direccion -->
+                                <div id="direccion" class="content">
+                                    <div class="content-header mb-3">
+                                        <h6 class="mb-0">Direccion</h6>
+                                    </div>
+                                    <div class="row g-3">
+                                        <div class="col-sm-6">
+                                            <label class="form-label" for="calle">Calle</label>
+                                            <input type="text" id="calle" name="calle" class="form-control" />
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <label class="form-label" for="numero">Número</label>
+                                            <input type="text" id="numero" name="numero" class="form-control" />
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <label class="form-label" for="codigoPostal">Código Postal</label>
+                                            <input type="text" id="codigoPostal" name="codigoPostal"
+                                                class="form-control" />
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <label class="form-label" for="pais">País</label>
+                                            <select class="form-select" id="pais" name="pais">
+                                            </select>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <label class="form-label" for="estadoDir">Estado</label>
+                                            <select class="form-select" id="estadoDir" name="estadoDir">
+                                            </select>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <label class="form-label" for="ciudad">Ciudad</label>
+                                            <select class="form-select" id="ciudad" name="ciudad">
+                                            </select>
+                                        </div>
+                                        <div class="col-12 d-flex justify-content-between">
+                                            <button class="btn btn-primary btn-prev">
+                                                <i class="bx bx-chevron-left bx-sm ms-sm-n2"></i>
+                                                <span class="align-middle d-sm-inline-block d-none">Anterior</span>
+                                            </button>
+                                            <button class="btn btn-primary btn-next">
+                                                <span
+                                                    class="align-middle d-sm-inline-block d-none me-sm-1">Siguiente</span>
+                                                <i class="bx bx-chevron-right bx-sm me-sm-n2"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Empresa -->
+                                <div id="empresa" class="content">
+                                    <div class="content-header mb-3">
+                                        <h6 class="mb-0">Datos de la Empresa</h6>
+                                    </div>
+                                    <div class="row g-3">
+                                        <div class="col-sm-6">
+                                            <label class="form-label" for="giro">Giro</label>
+                                            <input type="text" id="giro" name="giro" class="form-control" />
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <label class="form-label" for="paginaWeb">Pagina Web</label>
+                                            <input type="text" id="paginaWeb" name="paginaWeb" class="form-control" />
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <label class="form-label" for="rfcCliente">RFC</label>
+                                            <input type="text" id="rfcCliente" name="rfcCliente" class="form-control" />
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <label class="form-label" for="razonSocial">Razon Social</label>
+                                            <input type="text" id="razonSocial" name="razonSocial"
+                                                class="form-control" />
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <label class="form-label" for="empleados">Número de Empleados</label>
+                                            <input type="text" id="empleados" class="form-control" name="empleados" />
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <label class="form-label" for="facebook">Facebook</label>
+                                            <input type="text" id="facebook" name="facebook" class="form-control"
+                                                placeholder="https://facebook.com/abc" />
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <label class="form-label" for="instagram">Instagram</label>
+                                            <input type="text" id="instagram" name="instagram" class="form-control"
+                                                placeholder="https://instagram.com/abc" />
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <label class="form-label" for="linkedin">LinkedIn</label>
+                                            <input type="text" id="linkedin" name="linkedin" class="form-control"
+                                                placeholder="https://linkedin.com/abc" />
+                                        </div>
+                                        <div class="col-12 d-flex justify-content-between">
+                                            <button class="btn btn-primary btn-prev">
+                                                <i class="bx bx-chevron-left bx-sm ms-sm-n2"></i>
+                                                <span class="align-middle d-sm-inline-block d-none">Anterior</span>
+                                            </button>
+                                            <button id="submitCliente" class="btn btn-success btn-submit"
+                                                form="formSubmit">Guardar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!--/ App Wizard -->
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="modal fade" id="ClienteModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-simple modal-upgrade-plan">
+            <div class="modal-content p-3 p-md-5">
+                <div class="modal-body p-2">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="text-center">
+                        <h3 class="mb-2">Cliente</h3>
+                    </div>
+                     <div class="container-xxl flex-grow-1 container-p-y">
+              <!-- Header -->
+              <div class="row">
+                <div class="col-12">
+                  <div class="card mb-4">
+                    <div class="user-profile-header d-flex flex-column flex-sm-row text-sm-start text-center mb-4">
+                      <div class="flex-grow-1 mt-3 mt-sm-5">
+                        <div class="d-block h-auto ms-0 ms-sm-4">
+                          <div class="avatar avatar-primary">
+                            <span class="avatar-initial bg-label-primary">AR</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="flex-grow-1 mt-3 mt-sm-5">
+                        <div
+                          class="d-flex align-items-md-end align-items-sm-start align-items-center justify-content-md-between justify-content-start mx-4 flex-md-row flex-column gap-4">
+                          <div class="user-profile-info">
+                            <h4>AR</h4>
+                            <ul
+                              class="list-inline mb-0 d-flex align-items-center flex-wrap justify-content-sm-start justify-content-center gap-2">
+                              <li class="list-inline-item fw-semibold"><i class="bx bx-pen"></i> Cliente</li>
+                              <li class="list-inline-item fw-semibold"><i class="bx bx-map"></i> México</li>
+                              <li class="list-inline-item fw-semibold">
+                                <i class="bx bx-calendar-alt"></i> Cliente desde Abril 2021
+                              </li>
+                            </ul>
+                          </div>
+                          <a href="javascript:void(0)" class="btn btn-primary text-nowrap">
+                            <i class="bx bx-user-check me-1"></i>Cliente
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--/ Header -->
+
+              <!-- Navbar pills -->
+              <div class="row">
+                <div class="col-md-12">
+                  <ul class="nav nav-pills flex-column flex-sm-row mb-4">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="javascript:void(0);"><i class="bx bx-user me-1"></i> Cliente</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!--/ Navbar pills -->
+
+              <!-- User Profile Content -->
+              <div class="row">
+                <div class="col-xl-4 col-lg-5 col-md-5">
+                  <!-- About User -->
+                  <div class="card mb-4">
+                    <div class="card-body">
+                      <small class="text-muted text-uppercase">Información</small>
+                      <ul class="list-unstyled mb-4 mt-3">
+                        <li class="d-flex align-items-center mb-3">
+                          <i class="bx bx-user"></i><span class="fw-semibold mx-2">Contacto:</span>
+                          <span>Daniel Barbosa</span>
+                        </li>
+                        <li class="d-flex align-items-center mb-3">
+                          <i class="bx bx-check"></i><span class="fw-semibold mx-2">Estado:</span> <span>Cliente</span>
+                        </li>
+                        <li class="d-flex align-items-center mb-3">
+                          <i class="bx bx-star"></i><span class="fw-semibold mx-2">Puesto:</span> <span>Gerente de Ventas</span>
+                        </li>
+                        <li class="d-flex align-items-center mb-3">
+                          <i class="bx bx-flag"></i><span class="fw-semibold mx-2">País:</span> <span>México</span>
+                        </li>
+                      </ul>
+                      <small class="text-muted text-uppercase">Contactos</small>
+                      <ul class="list-unstyled mb-4 mt-3">
+                        <li class="d-flex align-items-center mb-3">
+                          <i class="bx bx-phone"></i><span class="fw-semibold mx-2">Telefono:</span>
+                          <span>8116009308</span>
+                        </li>
+                        <li class="d-flex align-items-center mb-3">
+                          <i class="bx bxl-whatsapp"></i><span class="fw-semibold mx-2">Whatsapp:</span> <span>8116009308</span>
+                        </li>
+                        <li class="d-flex align-items-center mb-3">
+                          <i class="bx bx-envelope"></i><span class="fw-semibold mx-2">Email:</span>
+                          <span>correo@ejemplo.com.mx</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!--/ About User -->
+                  <!-- Profile Overview -->
+                  <div class="card mb-4">
+                    <div class="card-body">
+                      <small class="text-muted text-uppercase">Resumen</small>
+                      <ul class="list-unstyled mt-3 mb-0">
+                        <li class="d-flex align-items-center mb-3">
+                          <i class="bx bx-check"></i><span class="fw-semibold mx-2">Oportunidades:</span>
+                          <span>$ 150,000</span>
+                        </li>
+                        <li class="d-flex align-items-center mb-3">
+                          <i class="bx bx-customize"></i><span class="fw-semibold mx-2">Ventas:</span>
+                          <span>$ 15,000</span>
+                        </li>
+                        <li class="d-flex align-items-center mb-3">
+                          <i class="bx bx-customize"></i><span class="fw-semibold mx-2">Perdidas:</span>
+                          <span>$ 5,000</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!--/ Profile Overview -->
+                </div>
+                <div class="col-xl-8 col-lg-7 col-md-7">
+                  <!-- Activity Timeline -->
+                  <div class="card card-action mb-4">
+                    <div class="card-header align-items-center">
+                      <h5 class="card-action-title mb-0"><i class="bx bx-list-ul me-2"></i>Seguimiento</h5>
+                      <div class="card-action-element">
+                        <div class="dropdown">
+                          <button
+                            type="button"
+                            class="btn dropdown-toggle hide-arrow p-0"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="bx bx-dots-vertical-rounded"></i>
+                          </button>
+                          <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="javascript:void(0);">Share timeline</a></li>
+                            <li><a class="dropdown-item" href="javascript:void(0);">Suggest edits</a></li>
+                            <li>
+                              <hr class="dropdown-divider" />
+                            </li>
+                            <li><a class="dropdown-item" href="javascript:void(0);">Report bug</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <ul class="timeline ms-2">
+                        <li class="timeline-item timeline-item-transparent">
+                          <span class="timeline-point timeline-point-warning"></span>
+                          <div class="timeline-event">
+                            <div class="timeline-header mb-1">
+                              <h6 class="mb-0">Client Meeting</h6>
+                              <small class="text-muted">Today</small>
+                            </div>
+                            <p class="mb-2">Project meeting with john @10:15am</p>
+                            <div class="d-flex flex-wrap">
+                              <div class="avatar me-3">
+                                <img src="../../assets/img/avatars/3.png" alt="Avatar" class="rounded-circle" />
+                              </div>
+                              <div>
+                                <h6 class="mb-0">Lester McCarthy (Client)</h6>
+                                <span>CEO of Infibeam</span>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="timeline-item timeline-item-transparent">
+                          <span class="timeline-point timeline-point-info"></span>
+                          <div class="timeline-event">
+                            <div class="timeline-header mb-1">
+                              <h6 class="mb-0">Create a new project for client</h6>
+                              <small class="text-muted">2 Day Ago</small>
+                            </div>
+                            <p class="mb-0">Add files to new design folder</p>
+                          </div>
+                        </li>
+                        <li class="timeline-item timeline-item-transparent">
+                          <span class="timeline-point timeline-point-primary"></span>
+                          <div class="timeline-event">
+                            <div class="timeline-header mb-1">
+                              <h6 class="mb-0">Shared 2 New Project Files</h6>
+                              <small class="text-muted">6 Day Ago</small>
+                            </div>
+                            <p class="mb-2">
+                              Sent by Mollie Dixon
+                              <img
+                                src="../../assets/img/avatars/4.png"
+                                class="rounded-circle ms-3"
+                                alt="avatar"
+                                height="20"
+                                width="20" />
+                            </p>
+                            <div class="d-flex flex-wrap gap-2">
+                              <a href="javascript:void(0)" class="me-3">
+                                <img
+                                  src="../../assets/img/icons/misc/pdf.png"
+                                  alt="Document image"
+                                  width="20"
+                                  class="me-2" />
+                                <span class="h6">App Guidelines</span>
+                              </a>
+                              <a href="javascript:void(0)">
+                                <img
+                                  src="../../assets/img/icons/misc/doc.png"
+                                  alt="Excel image"
+                                  width="20"
+                                  class="me-2" />
+                                <span class="h6">Testing Results</span>
+                              </a>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="timeline-item timeline-item-transparent">
+                          <span class="timeline-point timeline-point-success"></span>
+                          <div class="timeline-event pb-0">
+                            <div class="timeline-header mb-1">
+                              <h6 class="mb-0">Project status updated</h6>
+                              <small class="text-muted">10 Day Ago</small>
+                            </div>
+                            <p class="mb-0">Woocommerce iOS App Completed</p>
+                          </div>
+                        </li>
+                        <li class="timeline-end-indicator">
+                          <i class="bx bx-check-circle"></i>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!--/ Activity Timeline -->
+                </div>
+              </div>
+              <!--/ User Profile Content -->
+            </div>
+                </div>
+            </div>
+        </div>
+    </div>
