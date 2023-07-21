@@ -14,7 +14,8 @@
             <form id="formAuthentication" class="mb-3">
                 <div class="mb-3">
                     <label for="email" class="form-label">Correo</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Escribe tu email" required/>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Escribe tu email"
+                        required />
                 </div>
                 <div class="mb-3 form-password-toggle">
                     <div class="d-flex justify-content-between">
@@ -46,21 +47,3 @@
     </div>
     <!-- /Register -->
 </div>
- <script src="../assets/vendor/libs/jquery/jquery.js"></script>
-<script>
-	$("#entrar").on("click",function () {
-		let email=$("#email").val()
-		let pass=$("#password").val()
-		var socket = io.connect("https://salesplusapi.danielbarbosa34.repl.co", {
-  transports: [ "websocket" ]
-})
-		socket.on("connect",() => {
-			let jsonObject = {email:email,password:pass}
-  		socket.emit("login",jsonObject)
-			socket.on("auth",() =>{
-				location.href="./home";
-			})
-		});
-		
-	})
-</script>

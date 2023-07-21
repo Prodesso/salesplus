@@ -93,20 +93,14 @@ $(function () {
     }
   });
   $('#showtoast').on('click', function () {
-    var shortCutFunction = $('#toastTypeGroup input:radio:checked').val(),
-      isRtl = $('html').attr('dir') === 'rtl',
-      msg = $('#message').val(),
-      title = $('#title').val() || '',
-      $showDuration = $('#showDuration'),
-      $hideDuration = $('#hideDuration'),
-      $timeOut = $('#timeOut'),
-      $extendedTimeOut = $('#extendedTimeOut'),
-      $showEasing = $('#showEasing'),
-      $hideEasing = $('#hideEasing'),
-      $showMethod = $('#showMethod'),
-      $hideMethod = $('#hideMethod'),
+    var shortCutFunction = ,
+      msg = 
+      $showDuration = 5000,
+      $hideDuration = 1000,
+      $timeOut = 5000,
+      $extendedTimeOut = 100,
       toastIndex = toastCount++,
-      addClear = $('#addClear').prop('checked'),
+      addClear = true,
       prePositionClass = 'toast-top-right';
 
     prePositionClass =
