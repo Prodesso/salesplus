@@ -15,6 +15,14 @@
         "version": 1,
         "index": 136665
       }
+    ],
+    "public/js/dashboard.js": [
+      {
+        "id": "568b8a2a-d082-4e8d-b29e-6888bf2c987f",
+        "line": 353,
+        "version": 1710,
+        "index": 8519
+      }
     ]
   }
 }

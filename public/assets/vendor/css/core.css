@@ -17759,7 +17759,6 @@ html:not(.layout-footer-fixed) .content-wrapper {
 
 .timeline {
   position: relative;
-  height: 100%;
   width: 100%;
   padding: 0;
   list-style: none;
@@ -17769,7 +17768,6 @@ html:not(.layout-footer-fixed) .content-wrapper {
   top: 0;
   left: 0;
   z-index: 1;
-  height: 100%;
   width: 1px;
   border: 0;
   border-left: 1px solid #d9dee3;

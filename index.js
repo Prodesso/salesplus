@@ -20,18 +20,19 @@ var hbs = create({
 		allowProtoMethodsByDefault: true,
 	},
 });
-app.use(session({
-	secret: 'salesPlusCRM',
-	resave: false,
-	saveUninitialized: true,
-	cookie: { secure: true }
-}))
+const sessionMiddleware = session({
+  secret: "SalesPlusCrm",
+  resave: true,
+  saveUninitialized: true
+});
+app.use(sessionMiddleware);
 app.engine(".hbs", hbs.engine);
 app.set("view engine", "hbs");
 app.set("views", __dirname + "/views");
 
 app.get("/", (req, res) => {
 	req.session.authenticated = true;
+	console.log(req.sessionID)
 	res.render("login", {
 		login: true, title: "LogIn", script: "login.js"
 	});
@@ -53,6 +54,7 @@ app.get("/resetea", (req, res) => {
 });
 // sendFile will go here
 app.get("/:page", function (req, res) {
+	console.log(req.session.authenticated)
 	let page = req.params.page;
 	res.render(page, {
 		main: true, title: page, script: page + ".js"

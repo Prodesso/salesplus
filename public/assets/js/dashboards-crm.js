@@ -6,7 +6,6 @@
 
 (function() {
   let cardColor, headingColor, labelColor, legendColor, shadeColor, borderColor, heatMap1, heatMap2, heatMap3, heatMap4;
-
   if (isDarkStyle) {
     cardColor = config.colors_dark.cardColor;
     headingColor = config.colors_dark.headingColor;

@@ -31,8 +31,8 @@
                   <i class="fas fa-temperature-low fa-2x text-info"></i>
                 </div>
                 <span class="fw-semibold d-block mb-1">Frias</span>
-                <h4 class="card-title text-info">$ 25 KMXN</h4>
-                <small class="fw-semibold">134 Oportunidades Frias</small>
+                <h4 class="card-title text-info"><span id="fmonto"></span></h4>
+                <small class="fw-semibold"><span id="fqty"></span> Oportunidades Frias</small>
               </div>
             </div>
           </div>
@@ -43,8 +43,8 @@
                   <i class="fas fa-temperature-high fa-2x text-warning"></i>
                 </div>
                 <span class="fw-semibold d-block mb-1">Calientes</span>
-                <h4 class="card-title text-warning">$ 20 KMXN</h4>
-                <small class="fw-semibold">10 Oportunidades Calientes</small>
+                <h4 class="card-title text-warning"><span id="calmonto"></span></h4>
+                <small class="fw-semibold"><span id="calqty"></span> Oportunidades Calientes</small>
               </div>
             </div>
           </div>
@@ -55,8 +55,8 @@
                   <i class="fa fa-hand-holding-dollar fa-2x text-success"></i>
                 </div>
                 <span class="fw-semibold d-block mb-1">Ganadas</span>
-                <h4 class="card-title text-success">$ 25 KMXN</h4>
-                <small class="fw-semibold">10 Oportunidades Ganadas</small>
+                <h4 class="card-title text-success"><span id="gmonto"></span></h4>
+                <small class="fw-semibold"><span id="gqty"></span> Oportunidades Ganadas</small>
               </div>
             </div>
           </div>
@@ -67,8 +67,8 @@
                   <i class="fa fa-circle-xmark fa-2x text-danger"></i>
                 </div>
                 <span class="fw-semibold d-block mb-1">Perdidas</span>
-                <h4 class="card-title text-danger">$ 15 KMXN</h4>
-                <small class="fw-semibold">5 Oportunidades perdidas</small>
+                <h4 class="card-title text-danger"><span id="pmonto"></span></h4>
+                <small class="fw-semibold"><span id="pqty"></span> Oportunidades perdidas</small>
               </div>
             </div>
           </div>
@@ -76,10 +76,10 @@
       </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row"  >
     <!-- Overview & Sales Activity -->
     <div class="col-md-3 col-lg-3 mb-4">
-      <div class="card h-100">
+      <div class="card overflow-hidden mb-4" style="height:60vh">
         <div class="card-header">
           <h5 class="card-title mb-0">Ventas Semanales</h5>
           <small class="card-subtitle"></small>
@@ -90,7 +90,7 @@
     <!--/ Overview & Sales Activity -->
     <!-- Sales Stats -->
     <div class="col-md-3 col-lg-3 mb-4">
-      <div class="card h-100">
+      <div class="card overflow-hidden mb-4" style="height:60vh">
         <div class="card-header d-flex align-items-center justify-content-between mb-30">
           <h5 class="card-title m-0 me-2">Conversion a Ventas</h5>
           <div class="dropdown">
@@ -117,17 +117,17 @@
     </div>
     <!--/ Clientes -->
     <div class="col-md-3 col-lg-3 mb-4">
-      <div class="card h-100">
+      <div class="card  overflow-hidden mb-4" style="height:60vh">
         <div class="card-header d-flex align-items-center justify-content-between pb-0">
           <div class="card-title mb-0">
             <h5 class="m-0 me-2">Contactos</h5>
-            <small class="text-muted">183 Contactos</small>
+            <small class="text-muted"><span id="qtycont1"></span> Contactos</small>
           </div>
         </div>
         <div class="card-body">
           <div class="d-flex justify-content-between align-items-center mb-3">
             <div class="d-flex flex-column align-items-center gap-1">
-              <h2 class="mb-2">183</h2>
+              <h2 class="mb-2"><span id="qtycont"></span></h2>
               <span>Contactos</span>
             </div>
             <div id="cliChart"></div>
@@ -142,7 +142,7 @@
                   <h6 class="mb-0">Contacto no Interesado</h6>
                 </div>
                 <div class="user-progress">
-                  <small class="fw-semibold">45</small>
+                  <small class="fw-semibold"><span id="qtyno"></span></small>
                 </div>
               </div>
             </li>
@@ -155,7 +155,7 @@
                   <h6 class="mb-0">Prospecto poco interesado</h6>
                 </div>
                 <div class="user-progress">
-                  <small class="fw-semibold">58</small>
+                  <small class="fw-semibold"><span id="qtypoco"></span></small>
                 </div>
               </div>
             </li>
@@ -168,7 +168,7 @@
                   <h6 class="mb-0">Prospecto interesado</h6>
                 </div>
                 <div class="user-progress">
-                  <small class="fw-semibold">30</small>
+                  <small class="fw-semibold"><span id="qtyint"></span></small>
                 </div>
               </div>
             </li>
@@ -181,7 +181,7 @@
                   <h6 class="mb-0">Cliente</h6>
                 </div>
                 <div class="user-progress">
-                  <small class="fw-semibold">50</small>
+                  <small class="fw-semibold"><span id="qtycli"></span></small>
                 </div>
               </div>
             </li>
@@ -190,46 +190,13 @@
       </div>
     </div>
     <div class="col-md-3 col-lg-3 mb-4">
-      <div class="card h-100">
+      <div class="card  overflow-hidden mb-4" style="height:60vh">
         <div class="card-header d-flex align-items-center justify-content-between">
           <h5 class="card-title m-0 me-2">Seguimiento</h5>
         </div>
-        <div class="card-body">
+        <div class="card-body" id="timelinecard">
           <!-- Activity Timeline -->
-          <ul class="timeline">
-            <li class="timeline-item timeline-item-transparent">
-              <span class="timeline-point timeline-point-primary"></span>
-              <div class="timeline-event">
-                <div class="timeline-header mb-1">
-                  <h6 class="mb-0"><i class="fas fa-phone"></i> Llamar al Contacto</h6>
-                  <small class="text-muted">en 1 Mes</small>
-                </div>
-                <p class="mb-2">Llamar al contacto de la compañia</p>
-              </div>
-            </li>
-            <li class="timeline-item timeline-item-transparent">
-              <span class="timeline-point timeline-point-success"></span>
-              <div class="timeline-event">
-                <div class="timeline-header mb-1">
-                  <h6 class="mb-0"><i class="fas fa-calendar"></i> Visitar al Cliente</h6>
-                  <small class="text-muted">Realizada</small>
-                </div>
-                <p class="mb-2">Reunion en sus oficinas</p>
-              </div>
-            </li>
-            <li class="timeline-item timeline-item-transparent">
-              <span class="timeline-point timeline-point-danger"></span>
-              <div class="timeline-event pb-0">
-                <div class="timeline-header mb-1">
-                  <h6 class="mb-0 text-danger"><i class="fas fa-envelope"></i> Enviar Correo</h6>
-                  <small class="text-danger">Hace 5 días </small>
-                </div>
-                <p class="mb-2text-danger">Enviar el correo con las cotizaciones</p>
-              </div>
-            </li>
-            <li class="timeline-end-indicator">
-              <i class="bx bx-check-circle"></i>
-            </li>
+          <ul class="timeline" id="timeline">
           </ul>
           <!-- /Activity Timeline -->
         </div>
@@ -241,102 +208,18 @@
     <div class="col-md-12 col-lg-12 mb-0">
       <div class="card">
         <div class="card-datatable table-responsive">
-          <table class="invoice-list-table table border-top">
+          <table class="invoice-list-table table border-top" id="marketing">
             <thead>
               <tr>
                 <th>Campaña</th>
                 <th>Enviada</th>
+								<th>Leida</th>
                 <th>Estado</th>
                 <th class="cell-fit"></th>
               </tr>
             </thead>
-            <tbody class="table-border-bottom-0">
-              <tr>
-                <td>
-                  Dia de las Madres
-                </td>
-                <td> 34 Clientes </td>
-                <td><span class="badge bg-label-success"> Activa </span></td>
-                <td>
-                  <div class="d-flex align-items-center">
-                    <div class="dropdown">
-                      <a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0"
-                        data-bs-toggle="dropdown"><i class="bx bx-dots-vertical-rounded"></i></a>
-                      <div class="dropdown-menu dropdown-menu-end">
-                        <a href="javascript:void(0);" class="dropdown-item">Edit</a>
-                        <a href="javascript:;" class="dropdown-item">Duplicate</a>
-                        <div class="dropdown-divider"></div>
-                        <a href="javascript:;" class="dropdown-item delete-record text-danger">Delete</a>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Dia del Niño
-                </td>
-                <td> 50 Clientes </td>
-                <td><span class="badge bg-label-primary"> Terminada </span></td>
-                <td>
-                  <div class="d-flex align-items-center">
-                    <div class="dropdown">
-                      <a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0"
-                        data-bs-toggle="dropdown"><i class="bx bx-dots-vertical-rounded"></i></a>
-                      <div class="dropdown-menu dropdown-menu-end">
-                        <a href="javascript:void(0);" class="dropdown-item">Edit</a>
-                        <a href="javascript:;" class="dropdown-item">Duplicate</a>
-                        <div class="dropdown-divider"></div>
-                        <a href="javascript:;" class="dropdown-item delete-record text-danger">Delete</a>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Dia del padre
-                </td>
-                <td> 50 Clientes </td>
-                <td><span class="badge bg-label-danger"> Inactiva </span></td>
-                <td>
-                  <div class="d-flex align-items-center">
-                    <div class="dropdown">
-                      <a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0"
-                        data-bs-toggle="dropdown"><i class="bx bx-dots-vertical-rounded"></i></a>
-                      <div class="dropdown-menu dropdown-menu-end">
-                        <a href="javascript:void(0);" class="dropdown-item">Edit</a>
-                        <a href="javascript:;" class="dropdown-item">Duplicate</a>
-                        <div class="dropdown-divider"></div>
-                        <a href="javascript:;" class="dropdown-item delete-record text-danger">Delete</a>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Navidad
-                </td>
-                <td> 50 Clientes </td>
-                <td><span class="badge bg-label-secondary">
-                    Por Comenzar
-                  </span></td>
-                <td>
-                  <div class="d-flex align-items-center">
-                    <div class="dropdown">
-                      <a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0"
-                        data-bs-toggle="dropdown"><i class="bx bx-dots-vertical-rounded"></i></a>
-                      <div class="dropdown-menu dropdown-menu-end">
-                        <a href="javascript:void(0);" class="dropdown-item">Edit</a>
-                        <a href="javascript:;" class="dropdown-item">Duplicate</a>
-                        <div class="dropdown-divider"></div>
-                        <a href="javascript:;" class="dropdown-item delete-record text-danger">Delete</a>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-              </tr>
+            <tbody class="table-border-bottom-0" >
+              
             </tbody>
           </table>
         </div>
@@ -345,11 +228,3 @@
     <!--/ Customer Table -->
   </div>
 </div>
-<script>
-  $(document).ready(function () {
-    $('<script/>', {
-      type: 'text/javascript', src:
-        '../../assets/js/dashboards-crm.js'
-    }).appendTo('html');
-  });
-</script>
