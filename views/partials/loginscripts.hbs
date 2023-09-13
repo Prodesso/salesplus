@@ -4,7 +4,125 @@
 <script src="../assets/vendor/libs/popper/popper.js"></script>
 <script src="../assets/vendor/js/bootstrap.js"></script>
 <script src="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+<script>
+	$(function() {
+  const toggler = document.querySelectorAll('.form-password-toggle i')
+    if (typeof toggler !== 'undefined' && toggler !== null) {
+      toggler.forEach(el => {
+        el.addEventListener('click', e => {
+          e.preventDefault()
+          const formPasswordToggle = el.closest('.form-password-toggle')
+          const formPasswordToggleIcon = formPasswordToggle.querySelector('i')
+          const formPasswordToggleInput = formPasswordToggle.querySelector('input')
 
+          if (formPasswordToggleInput.getAttribute('type') === 'text') {
+            formPasswordToggleInput.setAttribute('type', 'password')
+            formPasswordToggleIcon.classList.replace('bx-show', 'bx-hide')
+          } else if (formPasswordToggleInput.getAttribute('type') === 'password') {
+            formPasswordToggleInput.setAttribute('type', 'text')
+            formPasswordToggleIcon.classList.replace('bx-hide', 'bx-show')
+          }
+        })
+      })
+    }
+	let listaPass = $("#pass_alert")
+	let newPassAlert = ""
+	listaPass.empty()
+	console.log('c')
+	newPassAlert = '<li id="difpass" style="color:grey;list-style:none">♦ Contraseñas diferentes</li>'
+	listaPass.append(newPassAlert)
+	newPassAlert = '<li id="lengPass" style="color:grey;list-style:none">♦ Mínimo de 8 Caracteres</li>'
+	listaPass.append(newPassAlert)
+	newPassAlert = '<li id="mayPass" style="color:grey;list-style:none">♦ Mínimo de 1 Mayúscula</li>'
+	listaPass.append(newPassAlert)
+	newPassAlert = '<li id="minPass" style="color:grey;list-style:none">♦ Mínimo de 1 Minúscula</li>'
+	listaPass.append(newPassAlert)
+	newPassAlert = '<li id="numPass" style="color:grey;list-style:none">♦ Mínimo de 1 Número</li>'
+	listaPass.append(newPassAlert)
+	$("#crear").prop('disabled', true)
+})
+function validate_password() {
+	let listaPass = $("#pass_alert")
+	let newPassAlert = ""
+	let countVal = 0
+	var pass = document.getElementById('password').value;
+	var confirm_pass = document.getElementById('confirmpassword').value;
+	var num=new RegExp("^(?=.*[0-9])"); 
+	var mayus=new RegExp("^(?=.*[A-Z])"); 
+	var minus=new RegExp("^(?=.*[a-z])"); 
+	var length=new RegExp("^.{8,}"); 
+	if(pass.length>0 && confirm_pass.length>0){
+		if (pass != confirm_pass) {
+			$('#difpass').remove();
+			newPassAlert = '<li id="difpass" style="color:red;list-style:none">☒ Contraseñas diferentes</li>'
+			listaPass.append(newPassAlert)
+			countVal++
+		} else {
+			$('#difpass').remove();
+			newPassAlert = '<li id="difpass" style="color:green;list-style:none">🗹 Contraseña Similares</li>'
+			listaPass.append(newPassAlert)
+			countVal--
+		}
+		if (pass.match(num)){
+			$('#numPass').remove();
+			newPassAlert = '<li id="numPass" style="color:green;list-style:none">🗹 Mínimo de 1 Número</li>'
+			listaPass.append(newPassAlert)
+			countVal--
+		}else{
+			$('#numPass').remove();
+			newPassAlert = '<li id="numPass" style="color:red;list-style:none">☒ Mínimo de 1 Número</li>'
+			listaPass.append(newPassAlert)
+			countVal++
+		}
+		if (pass.match(mayus)){
+			$('#mayPass').remove();
+			newPassAlert = '<li id="mayPass" style="color:green;list-style:none">🗹 Mínimo de 1 Mayúscula</li>'
+			listaPass.append(newPassAlert)
+			countVal--
+		}else{
+			$('#mayPass').remove();
+			newPassAlert = '<li id="mayPass" style="color:red;list-style:none">☒ Mínimo de 1 Mayúscula</li>'
+			listaPass.append(newPassAlert)
+			countVal++
+		}
+		if (pass.match(minus)){
+			$('#minPass').remove();
+			newPassAlert = '<li id="minPass" style="color:green;list-style:none">🗹 Mínimo de 1 Minúscula</li>'
+			listaPass.append(newPassAlert)
+			countVal--
+		}else{
+			$('#minPass').remove();
+			newPassAlert = '<li id="minPass" style="color:red;list-style:none">☒ Mínimo de 1 Minúscula</li>'
+			listaPass.append(newPassAlert)
+			countVal++
+		}
+		if (pass.match(length)){
+			$('#lengPass').remove();
+			newPassAlert = '<li id="lengPass" style="color:green;list-style:none">🗹 Mínimo de 8 Caracteres</li>'
+			listaPass.append(newPassAlert)
+			countVal--
+		}else{
+			$('#lengPass').remove();
+			newPassAlert = '<li id="lengPass" style="color:red;list-style:none">☒ Mínimo de 8 Caracteres</li>'
+			listaPass.append(newPassAlert)
+			countVal++
+		}
+		console.log(countVal)
+		if (countVal == -5) {
+			let listaPass = $("#pass_alert")
+			let newPassAlert = ""
+			newPassAlert = '<li style="color:green;list-style:none">🗹 Contraseña Correcta</li>'
+			listaPass.append(newPassAlert)
+			listaPass.empty()
+			$("#crear").prop('disabled', false)
+		}else{
+			$("#crear").prop('disabled', true)
+		}
+	}else{
+		countVal = 0
+	}
+}
+</script>
 <script src="../assets/vendor/js/menu.js"></script>
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>

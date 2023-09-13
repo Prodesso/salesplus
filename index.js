@@ -30,6 +30,45 @@ app.engine(".hbs", hbs.engine);
 app.set("view engine", "hbs");
 app.set("views", __dirname + "/views");
 
+var crypto = require('crypto');
+// Defining algorithm
+const algorithm = 'aes-256-cbc';
+// Defining key
+const key = crypto.randomBytes(32);
+// Defining iv
+const iv = crypto.randomBytes(16);
+// An encrypt function
+function decrypt(text) {
+	let iv = Buffer.from(text.iv, 'hex');
+	let encryptedText =
+		Buffer.from(text.encryptedData, 'hex');
+	// Creating Decipher
+	let key = Buffer.from(text.key, 'hex')
+	let decipher = crypto.createDecipheriv(
+		'aes-256-cbc', key, iv);
+	// Updating encrypted text
+	let decrypted = decipher.update(encryptedText);
+	decrypted = Buffer.concat([decrypted, decipher.final()]);
+	// returns data after decryption
+	return decrypted.toString();
+}
+function encrypt(text) {
+	// Creating Cipheriv with its parameter
+	let cipher = crypto.createCipheriv(
+		'aes-256-cbc', Buffer.from(key), iv);
+	// Updating text
+	let encrypted = cipher.update(text);
+	// Using concatenation
+	encrypted = Buffer.concat([encrypted, cipher.final()]);
+	// Returning iv and encrypted data
+	const res = {
+		iv: iv.toString('hex'),
+		key: key.toString('hex'),
+		encryptedData: encrypted.toString('hex')
+	};
+	const url = new URLSearchParams(res).toString();
+	return url
+}
 app.get("/", (req, res) => {
 	req.session.authenticated = true;
 	console.log(req.sessionID)
@@ -52,6 +91,18 @@ app.get("/resetea", (req, res) => {
 		login: true, title: "Resetea", script: "resetea.js"
 	});
 });
+app.get('/activacion', async (req, res) => {
+	let iv = req.query.iv
+	let key = req.query.key
+	let encryptedData = req.query.encryptedData
+	let input = {
+		iv: iv,
+		key: key,
+		encryptedData: encryptedData
+	}
+	let email = decrypt(input)
+	res.render("activacion", {email,login: true, title: 'Activacion', script:"activacion.js"})
+})
 // sendFile will go here
 app.get("/:page", function (req, res) {
 	console.log(req.session.authenticated)

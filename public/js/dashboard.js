@@ -440,8 +440,7 @@ function chartConversion(data) {
 	let qtyg = data.ganadas.qty
 	let qtyp = data.perdidas.qty
 	let qtyt = qtyf + qtyc + qtyg + qtyp
-	console.log(qtyt)
-	let porc = Math.round((qtyg / qtyt) * 100)
+	let porc = Math.round((qtyg / qtyt != 0 ? qtyt:1) )
 	console.log(porc)
 	const salesStatsEl = document.querySelector('#salesStats'),
 		salesStatsOptions = {
