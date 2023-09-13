@@ -10,9 +10,8 @@ $(document).on('click', '.nueva-oportunidad', function() {
 });
 $(document).on('click', '.registrar-seguimiento', function() {
 	let offCanvasElementRS = document.querySelector('#addEventSidebar');
-	let cliente = $(this).data('nombreCliente')
-	let contacto = $(this).data('nombreContacto')
-	console.log(this)
+	let cliente = $(this).data('id')
+	console.log(cliente)
 	$("#nombreClienteRS").val(cliente).hide();
 	$("#nombreContactoRS").val(contacto).hide();
 
@@ -37,9 +36,8 @@ $(document).on('click', '.agregar-nota', function() {
 });
 $(document).on('click', '.enviar-mensaje', function() {
 	let offCanvasElementEM = document.querySelector('#enviar-mensaje');
-	let cliente = $(this).data('nombreCliente')
-	let contacto = $(this).data('nombreContacto')
-	console.log(this)
+	let cliente = $(this).data('id')
+	console.log(cliente)
 	$("#nombreClienteEM").val(cliente).hide();
 	$("#nombreContactoEM").val(contacto).hide();
 
@@ -686,6 +684,26 @@ socket.on("userAuth", (user) => {
 		}
 		$("#nota").empty();
 		$("#nombreClienteAN").empty();
+		socket.emit('seguimientoC', jsonObject);
+
+	});
+	$("#guardaSeguimiento").on("click", function() {
+		let idCliente = $("#nombreClienteRS").val();
+		let Titulo = $("#Titulo").val();
+		let TipoSeguimiento = $("#TipoSeguimiento").val();
+		let FechaInicio = $("#FechaInicio").val();
+		let FechaTermino = $("#FechaTermino").val();
+		let Descripcion = $("#Descripcion").val();
+		let jsonObject = {
+			tipo: TipoSeguimiento,
+			titulo: Titulo,
+			fechainicio: FechaInicio,
+			descripcion: Descripcion,
+			estatus: "Activa",
+			fechacierre: FechaTermino,
+			usuarioCreador: user._id,
+			idOrganizacion: user.idOrganizacion
+		}
 		socket.emit('seguimientoC', jsonObject);
 
 	});
