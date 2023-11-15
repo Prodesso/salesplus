@@ -77,6 +77,7 @@ pattern = "**/{*.js,*.jsx,*.ts,*.tsx,*.json}"
 start = "typescript-language-server --stdio"
 
 [deployment]
-run = ["sh", "-c", "npm run start"]
 ignorePorts = false
 deploymentTarget = "gce"
+build = ["sh", "-c", "npm run start"]
+run = ["sh", "-c", "npm run start"]

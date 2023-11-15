@@ -282,6 +282,7 @@ socket.on("userAuth", (user) => {
 	})
 	socket.emit('clientes', user._id);
 	socket.on('clientes', function(data) {
+		console.log(data)
 		let dt_responsive_table = $('.dt-cliente')
 		dt_responsive_table.DataTable().clear().destroy();
 		$('.dt-cliente tbody').empty()
@@ -290,7 +291,7 @@ socket.on("userAuth", (user) => {
 				id = d._id
 				let initials = [...d.empresa.matchAll(rgx)] || [];
 				init = ((initials.shift()?.[1] || '') + (initials.pop()?.[1] || '')).toUpperCase();
-				let op = "$50,000", ven = "$150,000", per = "$20,000", vendedor = "Hugo Gzz"
+				let op = "$ 0,00", ven = "$ 0,00", per = "$ 0,00"
 				let row = '<tr id="' + id + '"><td><div class="d-flex justify-content-start align-items-center"><div class="avatar-wrapper"><div class="avatar  avatar-md me-2 avatar-primary"><span class="avatar-initial rounded-circle bg-label primary">' +
 					init +
 					'</span></div></div><div class="d-flex flex-column"><span class="text-truncate"><a href="#" data-bs-toggle="modal" data-bs-target="#ClienteModal" data-bs-id="' + id + '" class="text-body text-truncate fw-semibold">' +
@@ -317,7 +318,7 @@ socket.on("userAuth", (user) => {
 					'<a href="#" class="btnD badge badge-center rounded-pill bg-label-danger" data-id="' + id + '"><i class="bx bx-trash me-1"></i></a>' +
 					'<button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown"><i class="bx bx-dots-vertical-rounded"></i></button>' +
 					'<div class="dropdown-menu">' +
-					'<li><a href="#" class="dropdown-item enviar-mensaje" data-id="' + id + '">Enviar Mensaje</a></li>' +
+					'<li><a href="#" class="dropdown-item enviar-mensaje" data-id="' + d.whatsapp + '">Enviar Mensaje</a></li>' +
 					'<li><a href="#" class="dropdown-item nueva-oportunidad" data-id="' + id + '">Crear Oportunidad</a></li>' +
 					'<li><a href="#" class="dropdown-item registrar-seguimiento" data-id="' + id + '">Registrar Seguimiento</a></li>' +
 					'<li><a href="#" class="dropdown-item agregar-nota" data-id="' + id + '">Agregar Nota</a></li></div></td></tr>'
@@ -706,6 +707,12 @@ socket.on("userAuth", (user) => {
 		}
 		socket.emit('seguimientoC', jsonObject);
 
+	});
+	$("#btnWhatsappmsj").on("click", function() {
+		let whatsapp = $("#nombreClienteEM").val().replace(/\s/g,'');
+		let msj = $("#whatsappmsj").val();
+		let url = "https://api.whatsapp.com/send/?phone=521" + whatsapp + "&text=" + msj;
+		window.open(url);
 	});
 });
 function timeSeguimiento(data) {

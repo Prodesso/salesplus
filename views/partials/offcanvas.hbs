@@ -111,7 +111,7 @@
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body flex-grow-1">
-        <form class="add-new-record pt-0 row g-2" id="form-add-new-em" method="POST">
+        <form class="add-new-record pt-0 row g-2" id="form-add-new-em" >
             <div class="col-sm-12">
                 <input type="text" id="nombreClienteEM" class="form-control " name="nombreClienteEM"
                     placeholder="John Doe" aria-label="John Doe" aria-describedby="nombreClienteEM" />
@@ -120,9 +120,11 @@
                 <input type="text" id="nombreContactoEM" class="form-control " name="nombreContactoEM"
                     placeholder="John Doe" aria-label="John Doe" aria-describedby="nombreContactoEM" />
             </div>
+					<div class="col-sm-12">
+                <textarea class="form-control" id="whatsappmsj" name="nota" rows="2"></textarea>
+            </div>
             <div class="col-sm-12">
-                <button type="submit" class="btn btn-sm btn-primary data-submit me-sm me-1"
-                    formaction="/oportunidad">Guardar</button>
+                <button type="button" id="btnWhatsappmsj" class="btn btn-sm btn-primary data-submit me-sm me-1">Enviar Whatsapp</button>
 
                 <button type="reset" class="btn btn-sm btn-outline-secondary"
                     data-bs-dismiss="offcanvas">Cancelar</button>
